@@ -11,7 +11,7 @@ ul li{
 }
 .header_top {
   padding: 17px 0;
-  background-color: #7C58D3;
+  background-color: #A04C22;
 }
 .header_top .social_links{
   margin: 0;
@@ -91,6 +91,7 @@ ul li{
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .main-header.header-style2{
   background-color: #fff;
@@ -158,12 +159,12 @@ ul li{
   padding: 0;
   line-height: 1;
   font-size: 18px;
-  font-weight: 700;
-  color: #1C103B;
+  font-weight: 300;
+  color: #232F61;
   position: relative;
 }
 .main-list .navigation > li.current > a {
-  color: #7C58D3;
+  color: #A04C22;
 }
 .main-list .navigation > li.dropdown > a {
   padding-right: 14px;
@@ -254,13 +255,13 @@ ul li{
   background-color: #EBE5F7;
 }
 .main-list .navigation > li > ul > li:hover > a:before{
-  background-color: #7C58D3;
+  background-color: #BBE6D5;
 }
 .main-list .navigation > li > ul > li > a:hover {
-  color: #7c58d3;
+  color: #BBE6D5;
 }
 .main-list .navigation > li > ul > li:hover > a {
-  color: #7c58d3;
+  color: #BBE6D5;
 }
 .main-list .navigation > li > ul > li.dropdown > a:after {
   font-family: "Font Awesome 6 Pro";
@@ -341,6 +342,15 @@ ul li{
   display: none;
 }
 .main-header .header-lower .outer-box {
+  position: relative;
+  display: flex;
+          justify-content: flex-end;
+          align-items: center;
+  height: 100%;
+  padding: 10px 0;
+}
+
+.main-header .sticky-header .outer-box {
   position: relative;
   display: flex;
           justify-content: flex-end;
@@ -1074,7 +1084,7 @@ ul li{
   display: none;
 }
 .innerpage-breadcrumb li a {
-  color: #7C58D3;
+  color: #A04C22;
   display: block;
 }
 .innerpage-breadcrumb li a:hover {

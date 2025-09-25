@@ -11,57 +11,43 @@ export default function Footer1() {
             <div className="col-xl-3 col-sm-6">
               <div className="footer_widget footer_about mb50-lg">
                 <div className="site_logo"><Link href="/"><img className="logo_before" src="/images/logo/logo.svg"  alt="Petopia Logo"/></Link></div>
-                <p>Tristique nulla aliquet enim tortor at auctor urna nunc. Massa enim nec dui nunc mattis enim ut tellus. Sed ut perspiciatis unde ...</p>
+                <p>Dé hondenuitlaatservice en oppasadres in Bleiswijk! Voor blije honden en gerustgestelde baasjes.</p>
                 <div className="footer_hotline iconbox_item iconbox_lefticon">
-                  <div className="item_icon"><i className="fas fa-phone-alt"></i></div>
+                  <div className="item_icon"><i className="fa-brands fa-whatsapp"></i></div>
                   <div className="item_content">
-                    <h3 className="item_title"><Link href="tel:(913)756-3126">(913) 756-3126</Link></h3>
-                    <p className="mb-0">Got Questions? Call us 24/7</p>
+                    <h3 className="item_title"><Link href="https://wa.me/31627195985">Whatsapp ons</Link></h3>
+                    <p className="mb-0">Direct antwoord via WhatsApp</p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-sm-6">
               <div className="footer_widget mb50-lg">
-                <h3 className="footer_widget_title">Working Hours</h3>
+                <h3 className="footer_widget_title">Bereikbaarheid</h3>
                 <div className="office_hour">
-                  <ul className="unorder_list_block">
-                    <li>
-                      <span>Mon - Fri:</span>
-                      <span>7am – 6pm</span>
-                    </li>
-                    <li>
-                      <span>Saturday:</span>
-                      <span>9am – 4pm</span>
-                    </li>
-                    <li>
-                      <span>Sunday:</span>
-                      <span><strong>Closed</strong></span>
-                    </li>
-                  </ul>
+					<span><strong>24/7</strong></span><br/>
+					<span>Neem gerust contact op voor wandelingen, oppas of speciale verzoeken – ik pas me aan jullie schema aan.</span>
                 </div>
               </div>
             </div>
-            <div className="col-xl-2 col-sm-6">
+            <div className="col-xl-5 col-sm-12">
               <div className="footer_widget mb50-sm">
-                <h3 className="footer_widget_title">Useful Links</h3>
+                <h3 className="footer_widget_title">Handige links</h3>
                 <div className="page_list">
                   <ul className="unorder_list_block">
-                    <li><Link href="/"><i className="fas fa-circle"></i>Home</Link></li>
-                    <li><Link href="page-about"><i className="fas fa-circle"></i>About</Link></li>
-                    <li><Link href="page-services"><i className="fas fa-circle"></i>Services</Link></li>
-                    <li><Link href="page-shop"><i className="fas fa-circle"></i>Shop</Link></li>
+                    <li><Link href="/"><i className="fas fa-circle"></i>Oppassen</Link></li>
+                    <li><Link href="page-about"><i className="fas fa-circle"></i>Uitlaten</Link></li>
+                    <li><Link href="page-services"><i className="fas fa-circle"></i>Strippenkaarten</Link></li>
+                    <li><Link href="page-shop"><i className="fas fa-circle"></i>Abonnementen</Link></li>
                   </ul>
                   <ul className="unorder_list_block">
-                    <li><Link href="page-faq"><i className="fas fa-circle"></i>FAQ</Link></li>
-                    <li><Link href="page-gallery"><i className="fas fa-circle"></i>Gallery</Link></li>
-                    <li><Link href="page-shipping-info"><i className="fas fa-circle"></i>Delivery</Link></li>
-                    <li><Link href="page-deals"><i className="fas fa-circle"></i>Sales</Link></li>
+                    <li><Link href="page-faq"><i className="fas fa-circle"></i>Over mij</Link></li>
+                    <li><Link href="page-gallery"><i className="fas fa-circle"></i>Contact</Link></li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-sm-6">
+            {/* <div className="col-xl-3 col-sm-6">
               <div className="footer_widget">
                 <h3 className="footer_widget_title">Newsletter</h3>
                 <form action="#">
@@ -74,13 +60,13 @@ export default function Footer1() {
                   </div>
                 </form>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
       <div className="footer_bottom">
         <div className="container">
-          <p className="copyrights_text text-center"><Link target="_blank" href="/">Petopia</Link> © Copyrights Template All rights reserved</p>
+          <p className="copyrights_text text-center"><Link target="_blank" href="/">Bleiswijkse Snuitjes</Link> © Copyrights Alle rechten voorbehouden</p>
         </div>
       </div>
     </footer>
