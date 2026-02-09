@@ -8,35 +8,40 @@ const ServiceDetailsSec3 = () => {
         <div className="row align-items-center justify-content-lg-between">
           <div className="col col-lg-5">
             <div className="section_title">
-              <h2 className="title_text">Welcome To Our Family</h2>
-              <p>Tristique nulla aliquet enim tortor at auctor urna nunc. Massa enim nec dui nunc mattis enim ut tellus. Auctor augue mauris augue neque gravida in fermentum</p>
+              <h2 className="title_text">Flexibel geregeld, met zekerheid</h2>
+              <p>Regelmatige wandelingen? Met een abonnement of strippenkaart ben je verzekerd van vaste momenten en een voordeliger tarief per keer.</p>
             </div>
 
             <ul className="icon_list unorder_list_block mb-0">
               <li>
                 <i className="fas fa-check-circle"></i>
-                <span>Bathing – wash and fluff dry</span>
+                <span>Lagere prijs per keer</span>
               </li>
               <li>
                 <i className="fas fa-check-circle"></i>
-                <span>Pawdicure – nail trimming and filing</span>
+                <span>Vaste momenten mogelijk</span>
               </li>
               <li>
                 <i className="fas fa-check-circle"></i>
-                <span>Breed specific styling, cutting and stripping</span>
+                <span>Gegarandeerde plek</span>
               </li>
               <li>
                 <i className="fas fa-check-circle"></i>
-                <span>De-matting and detangling</span>
+                <span>Flexibel inzetbaar</span>
               </li>
             </ul>
+
+			<div className="mt-5 cta-container">
+				<Link href="/abonnement" className="btn btn_primary">Bekijk abonnement</Link>
+				<Link href="/strippenkaart" className="btn border_primary">Bekijk strippenkaart</Link>
+			</div>
           </div>
 
           <div className="col col-lg-6">
             <div className="about_image_1">
-              <div className="image_1 p-0"><img src="/images/about/about_img_7.jpg" alt="Pet Doctor"/></div>
-              <div className="image_2"><img src="/images/about/about_img_8.jpg" alt="Cat Image"/></div>
-              <div className="image_3"><img src="/images/about/about_img_9.jpg" alt="Dog Image"/></div>
+              <div className="image_1 p-0"><img src="/images/about/anouk-die-past-op-oppashond.jpg" alt="Pet Doctor"/></div>
+              <div className="image_2"><img src="/images/about/oppashond-die-netjes-luistert-naar-zit-commando.jpg" alt="Cat Image"/></div>
+              <div className="image_3"><img src="/images/about/oppashond-finley-die-lacht.jpg" alt="Dog Image"/></div>
               <div className="shape_img_1"><img src="/images/shape/shape_circle_1.svg" alt="Yellow Circle"/></div>
               <div className="shape_img_2"><img src="/images/shape/shape_circle_3.svg" alt="Yellow Circle"/></div>
             </div>

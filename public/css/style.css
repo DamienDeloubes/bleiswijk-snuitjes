@@ -3120,6 +3120,7 @@ hr {
   -ms-flex: 0 0 80px;
   flex: 0 0 80px;
   overflow: hidden;
+  border-radius: 8px;
   margin-right: 20px;
 }
 .service_price_item .item_image img {
@@ -4056,6 +4057,12 @@ hr {
 .feature_service .cta-container {
   display: flex;
   flex-direction: column;
+  gap: 8px;
+}
+
+.about_section .cta-container {
+  display: flex;
+  flex-direction: row;
   gap: 8px;
 }
 
@@ -6035,6 +6042,10 @@ blockquote cite {
 @media screen and (max-width: 425px) {
   .feature_service .cta-container {
     flex-direction: row;
+  }
+
+  .about_section .cta-container {
+    flex-direction: column;
   }
 
   .about_image_1 .image_2 {

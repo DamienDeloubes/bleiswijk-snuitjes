@@ -8,11 +8,11 @@ const Consulting = () => {
       <div className="container">
         <div className="section_title text-center">
           <h2 className="title_text">
-            <span className="sub_title">Consultation</span>
-            How to Сonsult a Specialist
+            <span className="sub_title">Geen gedoe</span>
+            Zo werkt het
           </h2>
           <p className="mb-0">
-            Auctor augue mauris augue neque gravida in fermentum
+            Eenvoudig, persoonlijk en afgestemd op jouw hond
           </p>
         </div>
       </div>
@@ -22,8 +22,8 @@ const Consulting = () => {
             <div className="col col-lg-3 col-md-6 col-sm-6">
               <div className="iconbox_item iconbox_centericon">
                 <div className="item_icon" style={{ backgroundImage: 'url(images/shape/shape_outline.svg)' }}><i className="fas fa-comment-dots"></i></div>
-                <div className="item_content"><h3 className="item_title">Get in touch</h3>
-                  <p className="mb-0">Duis aute irure dolor in reprehenderit in voluptate </p>
+                <div className="item_content"><h3 className="item_title">Kennismaking</h3>
+                  <p className="mb-0">We plannen een kort bezoek bij jou thuis om jouw hond, routines en wensen te leren kennen.</p>
                 </div>
               </div>
             </div>
@@ -32,28 +32,28 @@ const Consulting = () => {
               <div className="iconbox_item iconbox_centericon">
                 <div className="item_icon" style={{ backgroundImage: 'url(images/shape/shape_outline.svg)' }}><i className="fas fa-calendar-check"></i></div>
                 <div className="item_content">
-                  <h3 className="item_title">Schedule a visit</h3>
-                  <p className="mb-0">Duis aute irure dolor in reprehenderit in voluptate </p>
+                  <h3 className="item_title">Plan maken</h3>
+                  <p className="mb-0">Samen stemmen we af wanneer de wandelingen, oppas of thuisbezoeken plaatsvinden.</p>
                 </div>
               </div>
             </div>
 
             <div className="col col-lg-3 col-md-6 col-sm-6">
               <div className="iconbox_item iconbox_centericon">
-                <div className="item_icon" style={{ backgroundImage: 'url(images/shape/shape_outline.svg)' }}><i className="fas fa-clipboard-list"></i></div>
+                <div className="item_icon" style={{ backgroundImage: 'url(images/shape/shape_outline.svg)' }}><i className="fas fa-paw"></i></div>
                 <div className="item_content">
-                  <h3 className="item_title">Pet admission</h3>
-                  <p className="mb-0">Duis aute irure dolor in reprehenderit in voluptate </p>
+                  <h3 className="item_title">1-op-1 verzorging</h3>
+                  <p className="mb-0">Elke wandeling of opvang is individueel, zodat jouw hond alle aandacht krijgt en zich veilig voelt.</p>
                 </div>
               </div>
             </div>
 
             <div className="col col-lg-3 col-md-6 col-sm-6">
               <div className="iconbox_item iconbox_centericon">
-                <div className="item_icon" style={{ backgroundImage: 'url(images/shape/shape_outline.svg)' }}><i className="fas fa-home-lg"></i></div>
+                <div className="item_icon" style={{ backgroundImage: 'url(images/shape/shape_outline.svg)' }}><i className="fas fa-camera-retro"></i></div>
                 <div className="item_content">
-                  <h3 className="item_title">Take them home</h3>
-                  <p className="mb-0">Duis aute irure dolor in reprehenderit in voluptate </p>
+                  <h3 className="item_title">Updates & feedback</h3>
+                  <p className="mb-0">Je ontvangt foto's, korte updates en tips, zodat je altijd weet hoe het gaat.</p>
                 </div>
               </div>
             </div>

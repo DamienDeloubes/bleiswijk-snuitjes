@@ -37,7 +37,7 @@ export default function Footer1() {
               <div className="footer_widget mb50-lg">
                 <h3 className="footer_widget_title">Werkuren</h3>
                 <div className="office_hour">
-                      Wij staan <strong><span>24/7</span></strong> paraat om op te passen
+                      Ik sta <strong><span>24/7</span></strong> paraat om op te passen
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ export default function Footer1() {
                 <div className="page_list">
                   <ul className="unorder_list_block">
                     <li><Link href="/"><i className="fas fa-circle"></i>Startpagina</Link></li>
-                    <li><Link href="/diensten-en-prijzen"><i className="fas fa-circle"></i>Diensten & Prijzen</Link></li>
+                    <li><Link href="/diensten"><i className="fas fa-circle"></i>Diensten & Prijzen</Link></li>
                     <li><Link href="/over-bleiswijkse-snuitjes"><i className="fas fa-circle"></i>Over Bleiswijkse Snuitjes</Link></li>
                     <li><Link href="/contact"><i className="fas fa-circle"></i>Contact</Link></li>
                   </ul>

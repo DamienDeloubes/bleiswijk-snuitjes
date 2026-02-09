@@ -47,10 +47,10 @@ const ServiceDetailsSec1 = () => {
           <div className="pe-lg-5">
             <div className="section_title">
               <h2 className="title_text">
-                Pet Sitting Service
+                Persoonlijke zorg staat voorop
               </h2>
               <p className="mb-0">
-                Justo eget magna fermentum iaculis eu non diam phasellus. Eu lobortis elementum nibh tellus molestie nunc. Ullamcorper eget nulla facilisi etiam dignissim diam. Eget felis eget nunc lobortis mattis 
+                Elke hond is anders. Daarom werk ik uitsluitend met individuele wandelingen en opvang, met aandacht voor commandos, routines, voeding en karakter.
               </p>
             </div>
             <div className="banner_policy_items row">
@@ -60,37 +60,37 @@ const ServiceDetailsSec1 = () => {
                     <i className="fas fa-dog-leashed"></i>
                   </div>
                   <div className="item_content">
-                    <h3 className="item_title mb-0">Companionship</h3>
+                    <h3 className="item_title mb-0">Altijd 1-op-1 verzorging</h3>
                   </div>
                 </div>
               </div>
               <div className="col">
                 <div className="iconbox_item iconbox_lefticon">
                   <div className="item_icon">
-                    <i className="fas fa-tennis-ball"></i>
+                    <i className="fas fa-paw"></i>
                   </div>
                   <div className="item_content">
-                    <h3 className="item_title mb-0">Walks and Play Time</h3>
+                    <h3 className="item_title mb-0">Afgestemd op jouw hond</h3>
                   </div>
                 </div>
               </div>
               <div className="col">
                 <div className="iconbox_item iconbox_lefticon">
                   <div className="item_icon">
-                    <i className="fas fa-bone"></i>
+                    <i className="fas fa-face-laugh-beam"></i>
                   </div>
                   <div className="item_content">
-                    <h3 className="item_title mb-0">Fresh water and food</h3>
+                    <h3 className="item_title mb-0">Kennismaking vooraf</h3>
                   </div>
                 </div>
               </div>
               <div className="col">
                 <div className="iconbox_item iconbox_lefticon">
                   <div className="item_icon">
-                    <i className="fas fa-hands-heart"></i>
+                    <i className="fas fa-camera-retro"></i>
                   </div>
                   <div className="item_content">
-                    <h3 className="item_title mb-0">Lots of love and snuggles</h3>
+                    <h3 className="item_title mb-0">Updates met foto’s</h3>
                   </div>
                 </div>
               </div>
@@ -101,34 +101,22 @@ const ServiceDetailsSec1 = () => {
           <div className="services_image_carousel zoom-gallery">
             <Swiper {...swiperOptions} className="common_carousel_3col">
               <SwiperSlide className="carousel_item">
-                <Link className="popup_image" href="assets/images/service/service_img_7.jpg">
-                  <img src="/images/service/service_img_7.jpg" alt="Pet Service"/>
-                </Link>
+                  <img src="/images/gallery/oppashond-luistert-naar-zit-commando.jpg" alt="Pet Service"/>
               </SwiperSlide>
-              <SwiperSlide className="carousel_item">
-                <Link className="popup_image" href="assets/images/service/service_img_8.jpg">
-                  <img src="/images/service/service_img_8.jpg" alt="Pet Service"/>
-                </Link>
+              <SwiperSlide className="carousel_item">                
+                  <img src="/images/gallery/oppashond-zit-gezellig-op-de-bank.jpg" alt="Pet Service"/>
               </SwiperSlide>
-              <SwiperSlide className="carousel_item">
-                <Link className="popup_image" href="assets/images/service/service_img_9.jpg">
-                  <img src="/images/service/service_img_9.jpg" alt="Pet Service"/>
-                </Link>
+              <SwiperSlide className="carousel_item">                
+                  <img src="/images/gallery/oppashond-pommeraan-wordt-uitgelaten.jpg" alt="Pet Service"/>
               </SwiperSlide>
-              <SwiperSlide className="carousel_item">
-                <Link className="popup_image" href="assets/images/service/service_img_7.jpg">
-                  <img src="/images/service/service_img_7.jpg" alt="Pet Service"/>
-                </Link>
+              <SwiperSlide className="carousel_item">                
+                    <img src="/images/gallery/oppashond-wordt-uitgelaten-terwijl-hij-stok-in-zijn-mond-heeft.jpg" alt="Pet Service"/>
               </SwiperSlide>
-              <SwiperSlide className="carousel_item">
-                <Link className="popup_image" href="assets/images/service/service_img_8.jpg">
-                  <img src="/images/service/service_img_8.jpg" alt="Pet Service"/>
-                </Link>
+              <SwiperSlide className="carousel_item">                
+                  <img src="/images/gallery/oppashond-kijkt-naar-vertrekkende-watertaxi-tijdens-uitlaten.jpg" alt="Pet Service"/>
               </SwiperSlide>
-              <SwiperSlide className="carousel_item">
-                <Link className="popup_image" href="assets/images/service/service_img_9.jpg">
-                  <img src="/images/service/service_img_9.jpg" alt="Pet Service"/>
-                </Link>
+              <SwiperSlide className="carousel_item">                
+                  <img src="/images/gallery/anouk-deelt-flyers-uit.jpg" alt="Pet Service"/>
               </SwiperSlide>
             </Swiper>
           </div>

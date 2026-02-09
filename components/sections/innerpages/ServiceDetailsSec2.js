@@ -9,11 +9,11 @@ const ServiceDetailsSec2 = () => {
           <div className="row justify-content-center">
             <div className="col col-lg-5">
               <h2 className="title_text">
-                <span className="sub_title">Our Prices</span>
-                Pet Services + Rates
+                <span className="sub_title">Eerlijke prijzen</span>
+               Diensten & tarieven
               </h2>
               <p className="mb-0">
-                We can fully customize your pet sitting schedule to fit your pet’s needs. Pick and choose what visits work best for you and your family
+                Kies voor losse momenten, een strippenkaart of een abonnement. Zo is er altijd een optie die past bij jouw planning en jouw hond.
               </p>
             </div>
           </div>
@@ -24,56 +24,36 @@ const ServiceDetailsSec2 = () => {
             <div className="services_price_items_wrap">
               <div className="service_price_item">
                 <div className="item_image">
-                  <img src="/images/service/service_img_1.jpg" alt="Pet Care Service"/>
+                  <img src="/images/service/oppashond-wordt-overdag-uitgelaten.jpg" alt="Pet Care Service"/>
                 </div>
                 <div className="item_content">
                   <div className="d-flex justify-content-between align-items-center">
-                    <div className="service_time"><i className="fas fa-clock"></i> 15 minute visit</div>
+                    <div className="service_time">Dagopvang</div>
                     <div className="item_price">
-                      <span>$22.00</span>
+                      <span>€25.00</span>
                     </div>
                   </div>
                   <h3 className="item_title mb-0">
-                    1 x Visit per day, small pet visit can be added per quote
+                  Persoonlijke 1-op-1 opvang overdag in huiselijke sfeer.
                   </h3>
                 </div>
-                <Link className="item_global_link" href="page-service-details"></Link>
               </div>
 
               <div className="service_price_item">
                 <div className="item_image">
-                  <img src="/images/service/service_img_2.jpg" alt="Pet Care Service"/>
+                    <img src="/images/service/oppashond-ligt-te-slapen.jpg" alt="Pet Care Service"/>
                 </div>
                 <div className="item_content">
                   <div className="d-flex justify-content-between align-items-center">
-                    <div className="service_time"><i className="fas fa-clock"></i> 30 minute visit</div>
+                    <div className="service_time">Logeren</div>
                     <div className="item_price">
-                      <span>$29.00</span>
+                      <span>€27.00</span>
                     </div>
                   </div>
                   <h3 className="item_title mb-0">
-                    A 12-hour stay, including the evening visit and morning visit
+                    Overnachting met volledige aandacht en vaste routines.
                   </h3>
                 </div>
-                <Link className="item_global_link" href="page-service-details"></Link>
-              </div>
-
-              <div className="service_price_item">
-                <div className="item_image">
-                  <img src="/images/service/service_img_3.jpg" alt="Pet Care Service"/>
-                </div>
-                <div className="item_content">
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="service_time"><i className="fas fa-clock"></i> 45 minute visit</div>
-                    <div className="item_price">
-                      <span>$36.00</span>
-                    </div>
-                  </div>
-                  <h3 className="item_title mb-0">
-                    Drop-off and pick-up times are flexible. $10 each additional dog. 
-                  </h3>
-                </div>
-                <Link className="item_global_link" href="page-service-details"></Link>
               </div>
             </div>
           </div>
@@ -82,56 +62,36 @@ const ServiceDetailsSec2 = () => {
             <div className="services_price_items_wrap">
               <div className="service_price_item">
                 <div className="item_image">
-                  <img src="/images/service/service_img_4.jpg" alt="Pet Care Service"/>
+                  <img src="/images/gallery/oppashond-wordt-uitgelaten-terwijl-hij-stok-in-zijn-mond-heeft.jpg" alt="Pet Care Service"/>
                 </div>
                 <div className="item_content">
                   <div className="d-flex justify-content-between align-items-center">
-                    <div className="service_time"><i className="fas fa-clock"></i> 29 minute visit</div>
+                    <div className="service_time"><i className="fas fa-clock"></i>Uitlaten {"(30 minuten)"}</div>
                     <div className="item_price">
-                      <span>$22.00</span>
+                      <span>€12.50</span>
                     </div>
                   </div>
                   <h3 className="item_title mb-0">
-                    1 x Visit per day, small pet visit can be added per quote
+                    Individuele wandeling zonder groepen, afgestemd op jouw hond.
                   </h3>
                 </div>
-                <Link className="item_global_link" href="page-service-details"></Link>
               </div>
 
               <div className="service_price_item">
                 <div className="item_image">
-                  <img src="/images/service/service_img_5.jpg" alt="Pet Care Service"/>
+                  <img src="/images/gallery/oppashond-pommeraan-wordt-uitgelaten.jpg" alt="Pet Care Service"/>
                 </div>
                 <div className="item_content">
                   <div className="d-flex justify-content-between align-items-center">
-                    <div className="service_time"><i className="fas fa-clock"></i> 65 Overnight Pet Sitting</div>
+                    <div className="service_time"><i className="fas fa-clock"></i>Uitlaten {"(60 minuten)"}</div>
                     <div className="item_price">
-                      <span>$29.00</span>
+                      <span>€17.50</span>
                     </div>
                   </div>
                   <h3 className="item_title mb-0">
-                    A 12-hour stay, including the evening visit and morning visit
+                    Lange, rustige wandeling met extra tijd en aandacht.
                   </h3>
                 </div>
-                <Link className="item_global_link" href="page-service-details"></Link>
-              </div>
-
-              <div className="service_price_item">
-                <div className="item_image">
-                  <img src="/images/service/service_img_6.jpg" alt="Pet Care Service"/>
-                </div>
-                <div className="item_content">
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="service_time"><i className="fas fa-clock"></i> 40 Private Boarding</div>
-                    <div className="item_price">
-                      <span>$36.00</span>
-                    </div>
-                  </div>
-                  <h3 className="item_title mb-0">
-                    Drop-off and pick-up times are flexible. $10 each additional dog. 
-                  </h3>
-                </div>
-                <Link className="item_global_link" href="page-service-details"></Link>
               </div>
             </div>
           </div>

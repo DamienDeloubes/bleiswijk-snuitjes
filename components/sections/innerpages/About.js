@@ -8,26 +8,26 @@ const About = () => {
         <div className="row align-items-center">
           <div className="col order-last col-lg-6">
             <div className="about_image_2">
-              <img src="/images/about/about_img_6.jpg" alt="Pet Care Image"/>
+              <img src="/images/gallery/oppashond-pommeraan-wordt-uitgelaten.jpg" alt="Pet Care Image"/>
               <div className="experience_years" style={{ backgroundImage: 'url(images/shape/shape_circle_1.svg)' }}>
-                <strong>20+</strong>
-                <span>Years Experience</span>
+                <strong>9+</strong>
+                <span>Jaar ervaring</span>
               </div>
             </div>
           </div>
           <div className="col col-lg-6">
             <div className="about_content_2">
               <div className="section_title">
-                <h2 className="title_text"><span className="sub_title">Our Services</span> About Petopia</h2>
-                <p className="mb-0">Justo eget magna fermentum iaculis eu non diam phasellus. Eu lobortis elementum nibh tellus molestie nunc. Ullamcorper eget nulla facilisi etiam dignissim diam. Eget felis eget nunc lobortis mattis </p>
+                <h2 className="title_text"><span className="sub_title">Wat ik doe</span>Mijn diensten in een oogopslag</h2>
+                <p className="mb-0">Alles afgestemd op jouw hond en jouw wensen</p>
               </div>
               <ul className="icon_list unorder_list_block">
-                <li> <i className="fas fa-bone"></i> <span>Adipiscing elit pellentesque</span></li>
-                <li> <i className="fas fa-bone"></i> <span>Ornare euismod elementum</span></li>
-                <li> <i className="fas fa-bone"></i> <span>Posuere ac ut consequat</span></li>
-                <li> <i className="fas fa-bone"></i> <span>Sed turpis tinci aliquet risus</span></li>
+                <li> <i className="fas fa-bone"></i> <span>Wandelingen</span></li>
+                <li> <i className="fas fa-bone"></i> <span>Uitlaten</span></li>
+                <li> <i className="fas fa-bone"></i> <span>Oppassen</span></li>
+                <li> <i className="fas fa-bone"></i> <span>Thuisbezoek</span></li>
               </ul>
-              <Link className="btn btn_primary" href="diensten"><i className="fas fa-paw"></i> Our Service</Link>
+              <Link className="btn btn_primary" href="/diensten"><i className="fas fa-paw"></i>Bekijk de prijzen</Link>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useState } from 'react';
 
-const Faq = () => {
+const Faq = ({includeBottomPadding}={includeBottomPadding:false}) => {
   const [isActive, setIsActive] = useState({
       status: false,
       key: 1,
@@ -22,7 +22,7 @@ const Faq = () => {
   return (
     <>
 
-  <section className="about_section section_space_lg pb-0 decoration_wrap">
+  <section className={`about_section section_space_lg ${includeBottomPadding ? '' : 'pb-0'} decoration_wrap`}>
     <div className="container">
       <div className="row align-items-center justify-content-lg-between">
         <div className="col col-lg-5">
