@@ -22,7 +22,7 @@ export default function Footer1() {
           <div className="row justify-content-lg-between">
             <div className="col-xl-4 col-sm-6">
               <div className="footer_widget footer_about mb50-lg">
-                <div className="site_logo"><Link href="/"><img className="logo_before" src="/images/logo/logo.svg"  alt="Petopia Logo"/></Link></div>
+                <div className="site_logo"><Link href="/"><img className="logo_before" src="/images/logo/logo.svg"  alt="Bleiswijkse Snuitjes Logo"/></Link></div>
                 <p>Rust, plezier en zorg voor elke snuit.</p>
                 <div className="footer_hotline iconbox_item iconbox_lefticon">
                   <div className="item_icon"><i className="fa-brands fa-whatsapp"></i></div>
