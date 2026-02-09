@@ -4225,6 +4225,7 @@ hr {
 .contact_section.bg_gray {
   background-color: #fbf9ff;
 }
+
 .contact_section .shape_image_1 {
   top: 112px;
   left: 230px;
@@ -5424,6 +5425,17 @@ blockquote cite {
   }
   .header_transparent .main_menu_list > li:not(:last-child) {
     margin-right: 30px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .contact_section p {
+    max-width: 40%;
+  }
+
+  .contact_section .section_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 /* Media Screen 1024px - End */

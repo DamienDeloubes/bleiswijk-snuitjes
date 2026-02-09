@@ -1,6 +1,16 @@
-import Link from "next/link";
 
 const Contact = () => {
+
+	    // Replace with your actual WhatsApp business number (including country code)
+    const phoneNumber = "31627195985" // Example Dutch number - replace with your actual number
+    const defaultMessage = "Hallo! Ik heb een vraag over jullie diensten."
+    
+    const handleWhatsAppClick = () => {
+        const encodedMessage = encodeURIComponent(defaultMessage)
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`
+        window.open(whatsappURL, '_blank')
+    }
+
   return (
   <>
 
@@ -21,7 +31,7 @@ const Contact = () => {
               <h3 className="item_title">Telefoon</h3>
               <ul className="item_info_list unorder_list_block">
                 <li>
-                  <a href="tel:+31627195985">+31 6 271 959 85</a>
+                  <button onClick={handleWhatsAppClick} style={{color:'#0d6efd'}}>06 271 959 85</button>
                 </li>
               </ul>
             </div>
@@ -75,10 +85,10 @@ const Contact = () => {
     </div>
 
     <div className="decoration_item shape_image_1">
-      <img src="/images/shape/shape_purr.svg" alt="Pet Purr"/>
+      <img src="/images/shape/shape_paws.svg" alt="Pet Purr"/>
     </div>
     <div className="decoration_item shape_image_2">
-      <img src="/images/shape/shape_cat.svg" alt="Cat"/>
+      <img src="/images/shape/shape_group_1.svg" alt="hond"/>
     </div>
   </section>
 

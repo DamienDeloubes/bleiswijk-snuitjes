@@ -1,6 +1,7 @@
 'use client'
 import { useEffect, useState } from "react"
 import BackToTop from '../elements/BackToTop'
+import WhatsAppWidget from '../elements/WhatsAppWidget'
 import Breadcrumb from './Breadcrumb'
 import Footer1 from './Footer1'
 import Header1 from "./Header1"
@@ -21,7 +22,6 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
     const handleSearch = () => setSearch(!isSearch)
 
     useEffect(() => {
-
         document.addEventListener("scroll", () => {
             const scrollCheck = window.scrollY > 100
             if (scrollCheck !== scroll) {
@@ -33,10 +33,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
         <>
             <PageHead />
             <div className="page-wrapper" id="top">
-                {!headerStyle && <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSearch={isSearch} handleSearch={handleSearch} />}
-                {headerStyle == 1 ? <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSearch={isSearch} handleSearch={handleSearch} /> : null}
-                {headerStyle == 2 ? <Header2 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSearch={isSearch} handleSearch={handleSearch} /> : null}
-                {headerStyle == 3 ? <Header3 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSearch={isSearch} handleSearch={handleSearch} /> : null}
+                <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSearch={isSearch} handleSearch={handleSearch} />
 
                 <main className="main">
                     {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
@@ -44,11 +41,10 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
                     {children}
                 </main>
 
-                {!footerStyle && < Footer1 />}
-                {footerStyle == 1 ? < Footer1 /> : null}
+                 < Footer1 />
 
             </div>
-                <BackToTop />
+                <WhatsAppWidget />
         </>
     )
 }
