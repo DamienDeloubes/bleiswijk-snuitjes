@@ -16,15 +16,13 @@ function MyApp({ Component, pageProps }) {
             setLoading(false);
         }, 2000);
     }, []);
-
-	return <Component {...pageProps} />;
-    // return (<>
-    //     {!loading ? (
-    //         <Component {...pageProps} />
-    //     ) : (
-    //         <div className="preloader"></div>
-    //     )}
-    // </>)
+    return (<>
+        {!loading ? (
+            <Component {...pageProps} />
+        ) : (
+            <div className="preloader"></div>
+        )}
+    </>)
 }
 
 export default MyApp

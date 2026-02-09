@@ -27,7 +27,7 @@ const About = () => {
                 <li> <i className="fas fa-bone"></i> <span>Posuere ac ut consequat</span></li>
                 <li> <i className="fas fa-bone"></i> <span>Sed turpis tinci aliquet risus</span></li>
               </ul>
-              <Link className="btn btn_primary" href="page-services"><i className="fas fa-paw"></i> Our Service</Link>
+              <Link className="btn btn_primary" href="diensten"><i className="fas fa-paw"></i> Our Service</Link>
             </div>
           </div>
         </div>

@@ -50,6 +50,20 @@
 		overflow: hidden;
 		border-radius: $border_radius;
 	}
+
+	.cta-container {
+		display: flex;
+		gap: 10px;
+
+		>a {
+			width: 100%;
+		}
+		// @media screen and (max-width: 991px) {
+		// 	flex-direction: column;
+
+			
+		// }
+	}
 }
 // Feature Service - End
 

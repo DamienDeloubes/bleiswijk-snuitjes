@@ -28,7 +28,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_1.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -40,7 +40,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_2.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -52,7 +52,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_3.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -64,7 +64,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_4.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -76,7 +76,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_5.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -88,7 +88,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_6.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -104,7 +104,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_2.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -116,7 +116,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_4.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -128,7 +128,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_6.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -140,7 +140,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_1.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -152,7 +152,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_3.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -164,7 +164,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_5.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -180,7 +180,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_3.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -192,7 +192,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_6.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -204,7 +204,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_1.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -216,7 +216,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_2.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -228,7 +228,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_4.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -240,7 +240,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_5.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -255,7 +255,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_1.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -267,7 +267,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_2.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -279,7 +279,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_3.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -291,7 +291,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_4.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -303,7 +303,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_5.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -315,7 +315,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_6.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -330,7 +330,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_2.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -342,7 +342,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_4.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -354,7 +354,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_6.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -366,7 +366,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_1.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -378,7 +378,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_3.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>
@@ -390,7 +390,7 @@ const Gallery = () => {
                     <div className="item_image">
                       <img src="/images/gallery/gallery_img_5.jpg" alt="Pet Image"/>
                     </div>
-                    <Link className="item_content" href="page-services">
+                    <Link className="item_content" href="diensten">
                       <span className="d-block"><small>SERVICES</small></span>
                       <strong className="d-block">Cat Grooming</strong>
                     </Link>

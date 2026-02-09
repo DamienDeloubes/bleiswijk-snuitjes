@@ -27,56 +27,56 @@ const Faq = () => {
       <div className="row align-items-center justify-content-lg-between">
         <div className="col col-lg-5">
           <div className="section_title">
-            <h2 className="title_text">Welcome To Our Family</h2>
-            <p>Tristique nulla aliquet enim tortor at auctor urna nunc. Massa enim nec dui nunc mattis enim ut tellus. Auctor augue mauris augue neque gravida in fermentum</p>
+            <h2 className="title_text">Wie zit er achter Bleiswijkse Snuitjes?</h2>
+            <p>Hey! Ik ben Anouk en ik bied persoonlijke hondenwandelingen en opvang in Bleiswijk. Geen groepen, wél volledige aandacht, afgestemd op het karakter en ritme van jouw hond.</p>
           </div>
           <div className="accordion faq-box-style1" id="faq_accordion">
             <ul className="accordion-box">
               {/* Block */}
               <li className="accordion block">
                 <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleClick(1)}>
-                  How Petopia Pet Care Started
+                 Waarom 1-op-1?
                   <div className="icon far fa-angle-down"></div>
                 </div>
                 <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                   <div className="content">
-                    <div className="text">Vitae et leo duis ut diam. Amet venenatis urna cursus eget nunc scelerisque. Nec ultrices dui sapien eget. Lectus magna fringilla urna porttitor rhoncus dolor purus</div>
+                    <div className="text">Ik werk nooit met groepen. Zo krijgt jouw hond alle aandacht, minder prikkels en een wandeling op maat, ideaal voor puppy's, senioren of gevoelige honden.</div>
                   </div>
                 </div>
               </li>
               {/* Block */}
               <li className="accordion block">
                 <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleClick(2)}>
-                  Mission Statement
+                  Mijn ervaring met honden
                   <div className="icon far fa-angle-down"></div>
                 </div>
                 <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
                   <div className="content">
-                    <div className="text">Vitae et leo duis ut diam. Amet venenatis urna cursus eget nunc scelerisque. Nec ultrices dui sapien eget. Lectus magna fringilla urna porttitor rhoncus dolor purus</div>
+                    <div className="text">Honden zijn altijd onderdeel geweest van mijn leven. Ik neem de tijd om elke hond te leren kennen en werk rustig, positief en met respect.</div>
                   </div>
                 </div>
               </li>
               {/* Block */}
               <li className="accordion block">
                 <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleClick(3)}>
-                  Value Added Services
+                  Hoe ziet een wandeling eruit?
                   <div className="icon far fa-angle-down"></div>
                 </div>
                 <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
                   <div className="content">
-                    <div className="text">Vitae et leo duis ut diam. Amet venenatis urna cursus eget nunc scelerisque. Nec ultrices dui sapien eget. Lectus magna fringilla urna porttitor rhoncus dolor purus</div>
+                    <div className="text">Elke wandeling wordt afgestemd op jouw hond: tempo, route, snuffelmomenten en training. Je ontvangt altijd een update met foto's of video.</div>
                   </div>
                 </div>
               </li>
               {/* Block */}
               <li className="accordion block mb-0">
                 <div className={isActive.key == 4 ? "acc-btn active" : "acc-btn"} onClick={() => handleClick(4)}>
-                  Social Responsability
+                  Persoonlijke kennismaking vooraf
                   <div className="icon far fa-angle-down"></div>
                 </div>
                 <div className={isActive.key == 4 ? "acc-content current" : "acc-content"}>
                   <div className="content">
-                    <div className="text">Vitae et leo duis ut diam. Amet venenatis urna cursus eget nunc scelerisque. Nec ultrices dui sapien eget. Lectus magna fringilla urna porttitor rhoncus dolor purus</div>
+                    <div className="text">Voor elke start plannen we een kennismaking bij jou thuis of bij mij. We bespreken routines, aandachtspunten, voeding en wat jouw hond nodig heeft voor een fijne wandeling of opvang.</div>
                   </div>
                 </div>
               </li>
@@ -86,13 +86,14 @@ const Faq = () => {
         <div className="col col-lg-6">
           <div className="about_image_1">
             <div className="image_1 p-0">
-              <img src="/images/about/about_img_1.jpg" alt="Pet Doctor"/>
+              <img src="/images/custom/anouk-met-hond.jpg" alt="Pet Doctor"/>
+
             </div>
             <div className="image_2">
-              <img src="/images/about/about_img_2.jpg" alt="Cat Image"/>
+              <img src="/images/custom/soof-erasmusbrug.jpg" alt="Cat Image"/>
             </div>
             <div className="image_3">
-              <img src="/images/about/about_img_3.jpg" alt="Dog Image"/>
+              <img src="/images/custom/anouk-met-louittje.jpg" alt="Dog Image"/>
             </div>
             <div className="shape_img_1">
               <img src="/images/shape/shape_circle_1.svg" alt="Yellow Circle"/>

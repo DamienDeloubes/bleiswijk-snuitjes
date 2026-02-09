@@ -9,20 +9,48 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
     <div className="header-lower">
       <div className="container">
         {/* Main box */}
-        <div className="main-wrapper row align-items-center">
-          <div className="logo-box col col-lg-2">
-            <div className="logo"><Link href="/"><img src="/images/logo/logo-2.svg" alt="" /></Link></div>
+        <div className="main-wrapper">
+          <div className="logo-box">
+            <div className="logo"><Link href="/"><img src="/images/logo/logo.svg" alt="" /></Link></div>
           </div>
 
-          <div className="nav-wrapper col col-lg-8">
+          <div className="nav-wrapper">
             <nav className="nav main-list">
               <Menu />
             </nav>
           </div>
-		  
-          <div className="outer-box d-flex col col-lg-2">
+          <div className="outer-box d-flex align-items-center">
             <div className="mobile-nav-toggler" onClick={handleMobileMenu}><span className="icon fas fa-bars"></span></div>
-            <Link href='https://wa.me/31627195985' target="_blank" className="dd-nav_btn" type="button">Contact opnemen</Link>
+            <ul className="header_btns_group unorder_list_right">
+              <li className="dropdown me-0 d-none d-sm-block">
+                <button className="cart_btn" type="button"><i className="fas fa-shopping-cart"></i> <small className="cart_counter">2</small> <span>item</span></button>
+                <div className="cart_dropdown dropdown-menu">
+                  <ul className="cart_items_list unorder_list_block">
+                    <li>
+                      <Link className="item_image" href="shop-details">
+                      <img src="/images/cart/cart_img_1.jpg" alt="Pet Care Service"/></Link>
+                      <div className="item_content">
+                        <h3 className="item_title"><Link href="shop-details">Flying Fish Cat Scratching</Link></h3>
+                        <span className="item_price">1 × $12.35</span>
+                      </div>
+                      <button className="remove_btn" type="button"><i className="fal fa-times"></i></button>
+                    </li>
+                    <li>
+                      <Link className="item_image" href="shop-details"><img src="/images/cart/cart_img_2.jpg" alt="Pet Care Service"/></Link>
+                      <div className="item_content">
+                        <h3 className="item_title"><Link href="shop-details">Pet Bed</Link></h3>
+                        <span className="item_price">1 × $58.16</span>
+                      </div>
+                      <button className="remove_btn" type="button"><i className="fal fa-times"></i></button>
+                    </li>
+                  </ul>
+                  <hr/>
+                  <div className="total_price"><span>Total</span> <strong>$70.51</strong></div>
+                  <Link className="btn border_primary" href="page-cart">Update Cart</Link>
+                  <Link className="btn btn_primary" href="page-cart">Checkout</Link>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -33,7 +61,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 
       <nav className="menu-box">
         <div className="upper-box">
-          <div className="nav-logo d-block d-lg-none"><Link href="/"><img src="/images/logo/logo-2.svg" alt=""  /></Link></div>
+          <div className="nav-logo d-block d-lg-none"><Link href="/"><img src="/images/logo/logo.svg" alt=""  /></Link></div>
           <div className="close-btn" onClick={handleMobileMenu}><i className="icon fa fa-times" /></div>
         </div>
         <MobileMenu />
@@ -62,13 +90,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
     {/* Sticky Header  */}
     <div className={`sticky-header ${scroll ? "fixed-header animated slideInDown" : ""}`}>
       <div className="container">
-        <div className="main-wrapper row align-items-center">
+        <div className="main-wrapper">
           {/*Logo*/}
-          <div className="logo col col-lg-2">
-            <Link href="/" ><img src="/images/logo/logo-2.svg" alt=""  /></Link>
+          <div className="logo">
+            <Link href="/" ><img src="/images/logo/logo.svg" alt=""  /></Link>
           </div>
           {/*Right Col*/}
-          <div className="nav-wrapper col col-lg-8">
+          <div className="nav-wrapper">
             {/* Main Menu */}
             <nav className="main-list">
               <div className="navbar-collapse show collapse clearfix">
@@ -76,9 +104,38 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
               </div>
             </nav>{/* Main Menu End*/}
           </div>
-          <div className="outer-box d-flex col col-lg-2">
+          <div className="outer-box d-flex align-items-center">
             <div className="mobile-nav-toggler" onClick={handleMobileMenu}><span className="icon fas fa-bars" /></div>
-            <Link href='https://wa.me/31627195985' target="_blank" className="dd-nav_btn" type="button">Contact opnemen</Link>
+            <ul className="header_btns_group unorder_list_right">
+              <li className="dropdown me-0 d-none d-sm-block">
+                <button className="cart_btn" type="button"><i className="fas fa-shopping-cart"></i> <small className="cart_counter">2</small> <span>item</span></button>
+                <div className="cart_dropdown dropdown-menu">
+                  <ul className="cart_items_list unorder_list_block">
+                    <li>
+                      <Link className="item_image" href="shop-details">
+                      <img src="/images/cart/cart_img_1.jpg" alt="Pet Care Service"/></Link>
+                      <div className="item_content">
+                        <h3 className="item_title"><Link href="shop-details">Flying Fish Cat Scratching</Link></h3>
+                        <span className="item_price">1 × $12.35</span>
+                      </div>
+                      <button className="remove_btn" type="button"><i className="fal fa-times"></i></button>
+                    </li>
+                    <li>
+                      <Link className="item_image" href="shop-details"><img src="/images/cart/cart_img_2.jpg" alt="Pet Care Service"/></Link>
+                      <div className="item_content">
+                        <h3 className="item_title"><Link href="shop-details">Pet Bed</Link></h3>
+                        <span className="item_price">1 × $58.16</span>
+                      </div>
+                      <button className="remove_btn" type="button"><i className="fal fa-times"></i></button>
+                    </li>
+                  </ul>
+                  <hr/>
+                  <div className="total_price"><span>Total</span> <strong>$70.51</strong></div>
+                  <Link className="btn border_primary" href="page-cart">Update Cart</Link>
+                  <Link className="btn btn_primary" href="page-cart">Checkout</Link>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

@@ -2,34 +2,22 @@ import Link from "next/link";
 
 const Banner = () => {
   return (
-    <>
-      <section
-        className="banner_section banner_style_2 decoration_wrap"
-        style={{ backgroundImage: "url(images/banner/shape_banner_bg.svg)" }}
-      >
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col order-last col-lg-6">
-              <div className="banner_image">
-                <img src="/images/banner/dogs_img_1.png" alt="Pet Dogs Image" />
-              </div>
-            </div>
-            <div className="col col-lg-6">
-              <div className="banner_content">
-                <h1 className="banner_title">
-                  Dé Honden Oppas Dienst In Bleiswijk
-                </h1>
-                <p className="banner_description">
-                  Bij Bleiswijkse Snuitjes krijgt jouw trouwe viervoeter de
-                  wandelingen en oppas die hij verdient. Flexibel, persoonlijk
-                  en helemaal afgestemd op jullie wensen.
-                </p>
+  <>
 
-                <Link href="#diensten" className="dd-nav_btn" type="button">
-                  Bekijk diensten
-                </Link>
-
-                {/* <div className="banner_policy_items row">
+  <section className="banner_section banner_style_2 decoration_wrap" style={{ backgroundImage: 'url(images/banner/shape_banner_bg.svg)' }}>
+    <div className="section_overlay" style={{ backgroundImage: 'url(images/overlay/shapes_overlay_2.svg)' }}></div>
+    <div className="container">
+      <div className="row align-items-center">
+        <div className="col order-last col-lg-6">
+          <div className="banner_image">
+            <img src="/images/banner/dogs_img_1.png" alt="Pet Dogs Image"/>
+          </div>
+        </div>
+        <div className="col col-lg-6">
+          <div className="banner_content">
+            <h1 className="banner_title"><span className="banner_sub_title">We care for your pets</span> We Help You Care for Animals with Nutrition</h1>
+            <p className="banner_description">All offers are subject to availability. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Consectetur a erat nam at. Potenti nullam ac tortor vitae purus faucibus ornare.</p>
+            <div className="banner_policy_items row">
               <div className="col">
                 <div className="iconbox_item iconbox_lefticon">
                   <div className="item_icon"><i className="fas fa-shipping-fast"></i></div>
@@ -76,13 +64,14 @@ const Banner = () => {
                   <Link className="item_global_link" href="page-service"></Link>
                 </div>
               </div>
-            </div> */}
-              </div>
             </div>
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </div>
+  </section>
+
+  </>
   );
 };
-export default Banner;
+export default Banner

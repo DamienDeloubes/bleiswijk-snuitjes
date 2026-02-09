@@ -132,7 +132,7 @@ const ProductDetails = () => {
                     </form>
                   </div>
                 </li>
-                <li><Link className="btn btn_primary addtocart_btn" href="page-services"><i className="fas fa-paw"></i> Add to Cart</Link></li>
+                <li><Link className="btn btn_primary addtocart_btn" href="diensten"><i className="fas fa-paw"></i> Add to Cart</Link></li>
               </ul>
               <ul className="details_item_info icon_list unorder_list_block">
                 <li>
