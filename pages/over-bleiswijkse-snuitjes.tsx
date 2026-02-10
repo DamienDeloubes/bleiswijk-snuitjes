@@ -19,7 +19,7 @@ export default function Page() {
         }
         pageText="Bij Bleiswijkse Snuitjes krijgt jouw hond alle aandacht die hij verdient. Van wandelingen tot oppas en thuisbezoeken, altijd 1-op-1 en volledig afgestemd op jouw viervoeter."
         floatImage="/images/breadcrumb/breadcrumb_img_1.png"
-        customClass="service-style"
+        customClass="about-style"
       />
       <WieZitErAchter includeBottomPadding />
       <ZoWerktHet />
