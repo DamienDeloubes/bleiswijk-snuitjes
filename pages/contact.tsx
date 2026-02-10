@@ -1,5 +1,4 @@
-import { Layout } from "@/components/layout/layout";
-import { PageTitle } from "@/components/layout/page-title";
+import { Layout, PageTitle } from "@/components/layout";
 import { ContactLijst } from "@/components/sections/contact/contact-lijst";
 
 export default function Page() {

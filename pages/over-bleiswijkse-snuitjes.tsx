@@ -1,9 +1,8 @@
-import { Layout } from "@/components/layout/layout";
+import { Layout, PageTitle } from "@/components/layout";
 
 import { OverBleiswijkseSnuitjes } from "@/components/sections/over-bleiswijkse-snuitjes/over-bleiswijkse-snuitjes";
 import { ZoWerktHet } from "@/components/sections/over-bleiswijkse-snuitjes/zo-werkt-het";
 import { WieZitErAchter } from "@/components/sections/home/wie-zit-erachter";
-import { PageTitle } from "@/components/layout/page-title";
 
 export default function Page() {
   return (

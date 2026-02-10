@@ -1,5 +1,4 @@
-import { Layout } from "@/components/layout/layout";
-import { PageTitle } from "@/components/layout/page-title";
+import { Layout, PageTitle } from "@/components/layout";
 import { Getuigenissen } from "@/components/shared/sections/getuigenissen";
 import { WaaromVakantieOpvang } from "@/components/sections/vakantie/waarom-vakantie-opvang";
 import { VakantiePrijzen } from "@/components/sections/vakantie/vakantie-prijzen";

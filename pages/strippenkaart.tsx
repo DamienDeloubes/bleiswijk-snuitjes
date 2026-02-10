@@ -1,5 +1,4 @@
-import { Layout } from "@/components/layout/layout";
-import { PageTitle } from "@/components/layout/page-title";
+import { Layout, PageTitle } from "@/components/layout";
 import { StrippenkaartPrijzen } from "@/components/sections/strippenkaart/strippenkaart-prijzen";
 import { WaaromEenStrippenkaart } from "@/components/sections/strippenkaart/waarom-een-strippenkaart";
 import { Getuigenissen } from "@/components/shared/sections/getuigenissen";

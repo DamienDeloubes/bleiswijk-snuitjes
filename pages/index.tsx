@@ -1,4 +1,4 @@
-import { Layout } from "@/components/layout/layout";
+import { Layout } from "@/components/layout";
 import { Hero } from "@/components/sections/home/hero";
 import { Diensten } from "@/components/sections/home/diensten";
 import { WieZitErAchter } from "@/components/sections/home/wie-zit-erachter";

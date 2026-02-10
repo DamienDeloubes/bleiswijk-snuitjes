@@ -1,5 +1,4 @@
-import { Layout } from "@/components/layout/layout";
-import { PageTitle } from "@/components/layout/page-title";
+import { Layout, PageTitle } from "@/components/layout";
 import { PersoonlijkeZorg } from "@/components/sections/diensten/persoonlijke-zorg";
 import { PrijzenLijst } from "@/components/sections/diensten/prijzen-lijst";
 import { FlexibelGeregeld } from "@/components/sections/diensten/flexibel-geregeld";
