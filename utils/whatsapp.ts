@@ -7,6 +7,6 @@ const defaultMessage = "Hallo! Ik heb een vraag over jullie diensten.";
 
 export const openWhatsapp = () => {
   const encodedMessage = encodeURIComponent(defaultMessage);
-  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+  const whatsappURL = `https://wa.me/${phoneNumber.unformatted}?text=${encodedMessage}`;
   window.open(whatsappURL, "_blank");
 };
