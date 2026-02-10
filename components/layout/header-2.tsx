@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { FC } from "react";
 import { Menu } from "./menu";
 import { MobileMenu } from "./mobile-menu";
 import { openWhatsapp, phoneNumber } from "@/utils/whatsapp";
@@ -7,15 +6,16 @@ import { email } from "@/utils/email";
 
 type HeaderProps = {
   scroll: boolean;
+  isMobileMenu?: boolean;
   handleMobileMenu: () => void;
   isSearch: boolean;
 };
 
-export const Header2: FC<HeaderProps> = ({
+export const Header2 = ({
   scroll,
   handleMobileMenu,
   isSearch,
-}) => {
+}: HeaderProps) => {
   return (
     <>
       <header

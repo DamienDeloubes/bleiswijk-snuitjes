@@ -19,7 +19,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "noImplicitAny": false
   },
   "include": [
     "next-env.d.ts",

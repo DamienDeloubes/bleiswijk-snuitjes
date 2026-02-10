@@ -1,4 +1,4 @@
-import { FC, ReactNode } from "react";
+import { ReactNode } from "react";
 
 type PageTitleProps = {
   pageName: ReactNode;
@@ -7,12 +7,12 @@ type PageTitleProps = {
   customClass: string;
 };
 
-export const PageTitle: FC<PageTitleProps> = ({
+export const PageTitle = ({
   pageName,
   pageText,
   floatImage,
   customClass,
-}) => {
+}: PageTitleProps) => {
   return (
     <section className="page-title">
       <div className="container">

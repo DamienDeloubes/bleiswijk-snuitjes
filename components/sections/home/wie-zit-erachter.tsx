@@ -1,11 +1,13 @@
-import { useState, FC } from "react";
+import { useState } from "react";
 
 type WieZitErAchterProps = {
   includeBottomPadding?: boolean;
 };
 
-export const WieZitErAchter: FC<WieZitErAchterProps> = (
-  { includeBottomPadding } = { includeBottomPadding: false },
+export const WieZitErAchter = (
+  { includeBottomPadding }: WieZitErAchterProps = {
+    includeBottomPadding: false,
+  },
 ) => {
   const [isActive, setIsActive] = useState({
     status: false,
@@ -16,6 +18,7 @@ export const WieZitErAchter: FC<WieZitErAchterProps> = (
     if (isActive.key === key) {
       setIsActive({
         status: false,
+        key,
       });
     } else {
       setIsActive({

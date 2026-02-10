@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, FC } from "react";
+import { useEffect, useState } from "react";
 import { WhatsAppWidget } from "../shared/widgets/whatsapp-widget";
 import { Footer } from "./footer";
 import { Header1 } from "./header-1";
@@ -12,8 +12,8 @@ type LayoutProps = {
   children: React.ReactNode;
 };
 
-export const Layout: FC<LayoutProps> = ({ headerStyle, children }) => {
-  const [scroll, setScroll] = useState(0);
+export const Layout = ({ headerStyle, children }: LayoutProps) => {
+  const [scroll, setScroll] = useState(false);
   // Moblile Menu
   const [isMobileMenu, setMobileMenu] = useState(false);
   const handleMobileMenu = () => {
@@ -27,13 +27,16 @@ export const Layout: FC<LayoutProps> = ({ headerStyle, children }) => {
   const handleSearch = () => setSearch(!isSearch);
 
   useEffect(() => {
-    document.addEventListener("scroll", () => {
+    const handleScroll = () => {
       const scrollCheck = window.scrollY > 100;
       if (scrollCheck !== scroll) {
         setScroll(scrollCheck);
       }
-    });
-  }, []);
+    };
+
+    document.addEventListener("scroll", handleScroll);
+    return () => document.removeEventListener("scroll", handleScroll);
+  }, [scroll]);
   return (
     <>
       <PageHead />
@@ -44,7 +47,6 @@ export const Layout: FC<LayoutProps> = ({ headerStyle, children }) => {
             isMobileMenu={isMobileMenu}
             handleMobileMenu={handleMobileMenu}
             isSearch={isSearch}
-            handleSearch={handleSearch}
           />
         )}
         {headerStyle == 1 ? (
@@ -53,7 +55,6 @@ export const Layout: FC<LayoutProps> = ({ headerStyle, children }) => {
             isMobileMenu={isMobileMenu}
             handleMobileMenu={handleMobileMenu}
             isSearch={isSearch}
-            handleSearch={handleSearch}
           />
         ) : null}
         {headerStyle == 2 ? (
@@ -62,7 +63,6 @@ export const Layout: FC<LayoutProps> = ({ headerStyle, children }) => {
             isMobileMenu={isMobileMenu}
             handleMobileMenu={handleMobileMenu}
             isSearch={isSearch}
-            handleSearch={handleSearch}
           />
         ) : null}
 
