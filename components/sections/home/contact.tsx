@@ -1,14 +1,7 @@
+import { email } from "@/utils/email";
+import { openWhatsapp, phoneNumber } from "@/utils/whatsapp";
+
 export const Contact = () => {
-  // Replace with your actual WhatsApp business number (including country code)
-  const phoneNumber = "31627195985"; // Example Dutch number - replace with your actual number
-  const defaultMessage = "Hallo! Ik heb een vraag over jullie diensten.";
-
-  const handleWhatsAppClick = () => {
-    const encodedMessage = encodeURIComponent(defaultMessage);
-    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-    window.open(whatsappURL, "_blank");
-  };
-
   return (
     <section className="contact_section bg_gray section_space_lg decoration_wrap">
       <div className="container">
@@ -34,11 +27,8 @@ export const Contact = () => {
                 <h3 className="item_title">Telefoon</h3>
                 <ul className="item_info_list unorder_list_block">
                   <li>
-                    <button
-                      onClick={handleWhatsAppClick}
-                      style={{ color: "#0d6efd" }}
-                    >
-                      06 271 959 85
+                    <button onClick={openWhatsapp} style={{ color: "#0d6efd" }}>
+                      {phoneNumber.readable}
                     </button>
                   </li>
                 </ul>
@@ -55,8 +45,10 @@ export const Contact = () => {
                 <h3 className="item_title">Email</h3>
                 <ul className="item_info_list unorder_list_block">
                   <li>
-                    <a href="mailto:bleiswijksesnuitjes@gmail.com?subject=Kennismaking%20aanvragen%20-%20Bleiswijk%20Snuitjes">
-                      bleiswijksesnuitjes@gmail.com
+                    <a
+                      href={`mailto:${email}?subject=Kennismaking%20aanvragen%20-%20Bleiswijk%20Snuitjes`}
+                    >
+                      {email}
                     </a>
                   </li>
                 </ul>

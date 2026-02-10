@@ -2,6 +2,7 @@ import Link from "next/link";
 import { FC } from "react";
 import { Menu } from "./menu";
 import { MobileMenu } from "./mobile-menu";
+import { openWhatsapp } from "@/utils/whatsapp";
 
 type HeaderProps = {
   scroll: boolean;
@@ -72,24 +73,25 @@ export const Header1: FC<HeaderProps> = ({
             <MobileMenu />
             <ul className="social-links">
               <li>
-                <Link href="/#">
-                  <i className="fab fa-twitter" />
-                </Link>
+                <a
+                  href="https://www.facebook.com/people/Bleiswijksesnuitjes/61573825588323/"
+                  target="_blank"
+                >
+                  <i className="fab fa-facebook-f"></i>
+                </a>
               </li>
               <li>
-                <Link href="/#">
-                  <i className="fab fa-facebook-f" />
-                </Link>
+                <a
+                  href="https://www.instagram.com/bleiswijksesnuitjes/"
+                  target="_blank"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
               </li>
               <li>
-                <Link href="/#">
-                  <i className="fab fa-pinterest" />
-                </Link>
-              </li>
-              <li>
-                <Link href="/#">
-                  <i className="fab fa-instagram" />
-                </Link>
+                <button onClick={openWhatsapp}>
+                  <i className="fab fa-whatsapp"></i>
+                </button>
               </li>
             </ul>
           </nav>

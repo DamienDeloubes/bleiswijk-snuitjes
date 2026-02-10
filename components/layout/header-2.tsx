@@ -2,6 +2,8 @@ import Link from "next/link";
 import { FC } from "react";
 import { Menu } from "./menu";
 import { MobileMenu } from "./mobile-menu";
+import { openWhatsapp, phoneNumber } from "@/utils/whatsapp";
+import { email } from "@/utils/email";
 
 type HeaderProps = {
   scroll: boolean;
@@ -14,15 +16,6 @@ export const Header2: FC<HeaderProps> = ({
   handleMobileMenu,
   isSearch,
 }) => {
-  const phoneNumber = "31627195985"; // Example Dutch number - replace with your actual number
-  const defaultMessage = "Hallo! Ik heb een vraag over jullie diensten.";
-
-  const handleWhatsAppClick = () => {
-    const encodedMessage = encodeURIComponent(defaultMessage);
-    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-    window.open(whatsappURL, "_blank");
-  };
-
   return (
     <>
       <header
@@ -34,39 +27,50 @@ export const Header2: FC<HeaderProps> = ({
               <div className="col-lg-6 col-sm-4">
                 <ul className="social_links">
                   <li>
-                    <Link href="#!">
+                    <a
+                      href="https://www.facebook.com/people/Bleiswijksesnuitjes/61573825588323/"
+                      target="_blank"
+                    >
                       <i className="fab fa-facebook-f"></i>
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link href="#!">
+                    <a
+                      href="https://www.instagram.com/bleiswijksesnuitjes/"
+                      target="_blank"
+                    >
                       <i className="fab fa-instagram"></i>
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link href="#!">
-                      <i className="fab fa-twitter"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#!">
+                    <button onClick={openWhatsapp} style={{ color: "white" }}>
                       <i className="fab fa-whatsapp"></i>
-                    </Link>
+                    </button>
                   </li>
                 </ul>
               </div>
               <div className="col-lg-6 col-sm-8">
                 <ul className="icon_list unorder_list justify-content-sm-end">
                   <li>
-                    <button onClick={handleWhatsAppClick}>
+                    <button
+                      onClick={openWhatsapp}
+                      style={{
+                        color: "white",
+                        fontSize: 16,
+                        fontWeight: 700,
+                        lineHeight: 1,
+                      }}
+                    >
                       <i className="fas fa-phone"></i>
-                      <span>06 271 959 85</span>
+                      <span>{phoneNumber.readable}</span>
                     </button>
                   </li>
                   <li>
-                    <a href="mailto:bleiswijksesnuitjes@gmail.com?subject=Kennismaking%20aanvragen%20-%20Bleiswijk%20Snuitjes">
+                    <a
+                      href={`mailto:${email}?subject=Kennismaking%20aanvragen%20-%20Bleiswijk%20Snuitjes`}
+                    >
                       <i className="fas fa-envelope"></i>
-                      <span>bleiswijksesnuitjes@gmail.com</span>
+                      <span>{email}</span>
                     </a>
                   </li>
                 </ul>
@@ -127,24 +131,25 @@ export const Header2: FC<HeaderProps> = ({
             <MobileMenu />
             <ul className="social-links">
               <li>
-                <Link href="/#">
-                  <i className="fab fa-twitter" />
-                </Link>
+                <a
+                  href="https://www.facebook.com/people/Bleiswijksesnuitjes/61573825588323/"
+                  target="_blank"
+                >
+                  <i className="fab fa-facebook-f"></i>
+                </a>
               </li>
               <li>
-                <Link href="/#">
-                  <i className="fab fa-facebook-f" />
-                </Link>
+                <a
+                  href="https://www.instagram.com/bleiswijksesnuitjes/"
+                  target="_blank"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
               </li>
               <li>
-                <Link href="/#">
-                  <i className="fab fa-pinterest" />
-                </Link>
-              </li>
-              <li>
-                <Link href="/#">
-                  <i className="fab fa-instagram" />
-                </Link>
+                <button onClick={openWhatsapp}>
+                  <i className="fab fa-whatsapp"></i>
+                </button>
               </li>
             </ul>
           </nav>

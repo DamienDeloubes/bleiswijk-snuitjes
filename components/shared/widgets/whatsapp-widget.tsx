@@ -1,19 +1,10 @@
 "use client";
 
+import { openWhatsapp } from "@/utils/whatsapp";
 import { useState } from "react";
 
 export const WhatsAppWidget = () => {
   const [isVisible] = useState(true);
-
-  // Replace with your actual WhatsApp business number (including country code)
-  const phoneNumber = "31627195985"; // Example Dutch number - replace with your actual number
-  const defaultMessage = "Hallo! Ik heb een vraag over jullie diensten.";
-
-  const handleWhatsAppClick = () => {
-    const encodedMessage = encodeURIComponent(defaultMessage);
-    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-    window.open(whatsappURL, "_blank");
-  };
 
   if (!isVisible) return null;
 
@@ -21,7 +12,7 @@ export const WhatsAppWidget = () => {
     <>
       <div
         className="whatsapp-widget"
-        onClick={handleWhatsAppClick}
+        onClick={openWhatsapp}
         title="Chat with us on WhatsApp"
       >
         <div className="whatsapp-icon">

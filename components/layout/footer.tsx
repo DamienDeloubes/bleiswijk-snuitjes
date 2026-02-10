@@ -1,16 +1,7 @@
+import { openWhatsapp, phoneNumber } from "@/utils/whatsapp";
 import Link from "next/link";
 
 export const Footer = () => {
-  // Replace with your actual WhatsApp business number (including country code)
-  const phoneNumber = "31627195985"; // Example Dutch number - replace with your actual number
-  const defaultMessage = "Hallo! Ik heb een vraag over jullie diensten.";
-
-  const handleWhatsAppClick = () => {
-    const encodedMessage = encodeURIComponent(defaultMessage);
-    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-    window.open(whatsappURL, "_blank");
-  };
-
   return (
     <>
       <footer className="footer_section">
@@ -35,8 +26,8 @@ export const Footer = () => {
                     </div>
                     <div className="item_content">
                       <h3 className="item_title">
-                        <button onClick={handleWhatsAppClick}>
-                          06 271 959 85
+                        <button onClick={openWhatsapp}>
+                          {phoneNumber.readable}
                         </button>
                       </h3>
                       <p className="mb-0">Vragen? Ik reageer dezelfde dag.</p>

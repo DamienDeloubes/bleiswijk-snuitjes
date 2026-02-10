@@ -30,15 +30,11 @@ export default function Page() {
               <i className="fab fa-instagram"></i>
             </Link>
           </li>
+
           <li>
-            <Link href="#!">
-              <i className="fab fa-twitter"></i>
-            </Link>
-          </li>
-          <li>
-            <Link href="#!">
+            <button>
               <i className="fab fa-whatsapp"></i>
-            </Link>
+            </button>
           </li>
         </ul>
       </section>
