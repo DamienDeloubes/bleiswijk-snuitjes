@@ -1,6 +1,6 @@
 import { Layout } from "@/components/layout/layout";
 import { PageTitle } from "@/components/layout/page-title";
-import ServiceDetailsSec4 from "@/components/sections/innerpages/ServiceDetailsSec4";
+import { Getuigenissen } from "@/components/shared/sections/getuigenissen";
 import { WaaromVakantieOpvang } from "@/components/sections/vakantie/waarom-vakantie-opvang";
 import { VakantiePrijzen } from "@/components/sections/vakantie/vakantie-prijzen";
 
@@ -15,7 +15,7 @@ export default function Page() {
       />
       <WaaromVakantieOpvang />
       <VakantiePrijzen />
-      <ServiceDetailsSec4 />
+      <Getuigenissen />
     </Layout>
   );
 }

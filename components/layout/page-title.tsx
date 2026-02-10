@@ -1,7 +1,7 @@
-import { FC } from "react";
+import { FC, ReactNode } from "react";
 
 type PageTitleProps = {
-  pageName: string;
+  pageName: ReactNode;
   pageText: string;
   floatImage: string;
   customClass: string;

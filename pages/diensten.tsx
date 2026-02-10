@@ -1,9 +1,9 @@
 import { Layout } from "@/components/layout/layout";
 import { PageTitle } from "@/components/layout/page-title";
-import ServiceDetailsSec1 from "@/components/sections/innerpages/ServiceDetailsSec1";
-import ServiceDetailsSec2 from "@/components/sections/innerpages/ServiceDetailsSec2";
-import ServiceDetailsSec3 from "@/components/sections/innerpages/ServiceDetailsSec3";
-import ServiceDetailsSec4 from "@/components/sections/innerpages/ServiceDetailsSec4";
+import { PersoonlijkeZorg } from "@/components/sections/diensten/persoonlijke-zorg";
+import { PrijzenLijst } from "@/components/sections/diensten/prijzen-lijst";
+import { FlexibelGeregeld } from "@/components/sections/diensten/flexibel-geregeld";
+import { Getuigenissen } from "@/components/shared/sections/getuigenissen";
 
 export default function Page() {
   return (
@@ -14,10 +14,10 @@ export default function Page() {
         floatImage="/images/breadcrumb/breadcrumb_img_2.png"
         pageText="Van persoonlijke wandelingen tot oppas en thuisbezoeken: bij Bleiswijkse Snuitjes krijgt jouw hond rust, zorg en aandacht, volledig afgestemd op zijn behoeften."
       />
-      <ServiceDetailsSec1 />
-      <ServiceDetailsSec2 />
-      <ServiceDetailsSec3 />
-      <ServiceDetailsSec4 />
+      <PersoonlijkeZorg />
+      <PrijzenLijst />
+      <FlexibelGeregeld />
+      <Getuigenissen />
     </Layout>
   );
 }

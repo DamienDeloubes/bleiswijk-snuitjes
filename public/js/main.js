@@ -42,72 +42,6 @@
   // Sticky Header - end
   // --------------------------------------------------
 
-  // Select Option - Start
-  // --------------------------------------------------
-  $('select').niceSelect();
-  // Select Option - End
-  // --------------------------------------------------
-
-  // Dropdown - Start
-  // --------------------------------------------------
-  // $('.dropdown').hover(function() {
-  //   $(this).find('> .dropdown-menu').addClass('show');
-  // }, function() {
-  //   $(this).find('> .dropdown-menu').removeClass('show');
-  // });
-  $(document).ready(function () {
-    $(".dropdown").on('mouseover', function () {
-      $(this).find('> .dropdown-menu').addClass('show');
-    });
-    $(".dropdown").on('mouseout', function () {
-      $(this).find('> .dropdown-menu').removeClass('show');
-    });
-  });
-  // Dropdown - End
-  // --------------------------------------------------
-
-  // Pricing Tab - Start
-  // --------------------------------------------------
-  $(".pricing_btns_nav li").on('click', function () {
-    $("li").removeClass("active");
-    $(this).addClass("active");
-  });
-  // Pricing Tab - End
-  // --------------------------------------------------
-
-  // multy count down - end
-  // --------------------------------------------------
-
-  // Videos & Images popup - Start
-  // --------------------------------------------------
-  $('.popup_video').magnificPopup({
-    type: 'iframe',
-    preloader: false,
-    removalDelay: 160,
-    mainClass: 'mfp-fade',
-    fixedContentPos: false
-  });
-
-  $('.zoom-gallery').magnificPopup({
-    delegate: '.popup_image',
-    type: 'image',
-    closeOnContentClick: false,
-    closeBtnInside: false,
-    mainClass: 'mfp-with-zoom mfp-img-mobile',
-    gallery: {
-      enabled: true
-    },
-    zoom: {
-      enabled: true,
-      duration: 300,
-      opener: function(element) {
-        return element.find('img');
-      }
-    }
-    
-  });
-  // Videos & Images popup - End
-  // --------------------------------------------------
 
   // Common Carousels - Start
   // --------------------------------------------------
@@ -279,67 +213,7 @@
   // Instagram Carousel - End
   // --------------------------------------------------
 
-  // Product Gallery - Satrt
-  // --------------------------------------------------
-  $(".product_gallery_for").slick({
-    dots: true,
-    arrows: false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    asNavFor: ".product_gallery_nav"
-  });
-  $(".product_gallery_nav").slick({
-    dots: false,
-    arrows: false,
-    vertical: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    focusOnSelect: true,
-    verticalSwiping: true,
-    asNavFor: ".product_gallery_for"
-  });
-  // Product Gallery - End
-  // --------------------------------------------------
 
-  // Quantity Form - start
-  // --------------------------------------------------
-  (function() {
-    window.inputNumber = function(el) {
-      var min = el.attr("min") || false;
-      var max = el.attr("max") || false;
-
-      var els = {};
-
-      els.dec = el.prev();
-      els.inc = el.next();
-
-      el.each(function() {
-        init($(this));
-      });
-
-      function init(el) {
-        els.dec.on("click", decrement);
-        els.inc.on("click", increment);
-
-        function decrement() {
-          var value = el[0].value;
-          value--;
-          if (!min || value >= min) {
-            el[0].value = value;
-          }
-        }
-
-        function increment() {
-          var value = el[0].value;
-          value++;
-          if (!max || value <= max) {
-            el[0].value = value++;
-          }
-        }
-      }
-    };
-  })();
-  inputNumber($(".input_number"));
   // Quantity Form - end
   // --------------------------------------------------
 

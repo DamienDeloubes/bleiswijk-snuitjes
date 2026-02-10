@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, FC } from "react";
-import { WhatsAppWidget } from "../shared/whatsapp-widget";
+import { WhatsAppWidget } from "../shared/widgets/whatsapp-widget";
 import { Footer } from "./footer";
 import { Header1 } from "./header-1";
 import { Header2 } from "./header-2";
