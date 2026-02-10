@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
-
+//
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
   slidesPerView: 4,
