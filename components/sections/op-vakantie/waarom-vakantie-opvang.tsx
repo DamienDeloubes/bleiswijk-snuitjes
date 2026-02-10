@@ -1,0 +1,79 @@
+export const WaaromVakantieOpvang = () => {
+  return (
+    <>
+      <section className="about_section section_space_lg decoration_wrap">
+        <div className="container">
+          <div className="row align-items-center justify-content-lg-between">
+            <div className="col col-lg-5">
+              <div className="section_title">
+                <h2 className="title_text">Waarom vakantie opvang?</h2>
+                <p>
+                  Geen losse boekingen of stress — kies één pakket waarin
+                  opvang, wandelingen en zorg samenkomen.
+                </p>
+              </div>
+
+              <ul className="icon_list unorder_list_block mb-0">
+                <li>
+                  <i className="fas fa-check-circle"></i>
+                  <span>1-op-1 opvang, geen groepen</span>
+                </li>
+                <li>
+                  <i className="fas fa-check-circle"></i>
+                  <span>Vaste dagindeling en routines</span>
+                </li>
+                <li>
+                  <i className="fas fa-check-circle"></i>
+                  <span>Dagopvang & logeren gecombineerd</span>
+                </li>
+                <li>
+                  <i className="fas fa-check-circle"></i>
+                  <span>Persoonlijk afgestemd op jouw hond</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="col col-lg-6">
+              <div className="about_image_1">
+                <div className="shape_img_1">
+                  <img
+                    src="/images/shape/shape_circle_1.svg"
+                    alt="Yellow Circle"
+                  />
+                </div>
+                <div className="shape_img_2">
+                  <img
+                    src="/images/shape/shape_circle_3.svg"
+                    alt="Yellow Circle"
+                  />
+                </div>
+                <div className="image_1 p-0">
+                  <img
+                    src="/images/about/anouk-die-past-op-oppashond.jpg"
+                    alt="Pet Doctor"
+                  />
+                </div>
+                <div className="image_2">
+                  <img
+                    src="/images/about/oppashond-die-netjes-luistert-naar-zit-commando.jpg"
+                    alt="Cat Image"
+                  />
+                </div>
+                <div className="image_3">
+                  <img
+                    src="/images/about/oppashond-finley-die-lacht.jpg"
+                    alt="Dog Image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="decoration_item shape_dot_1">
+          <img src="/images/shape/shape_dot_group_1.svg" alt="Colorful Dots" />
+        </div>
+      </section>
+    </>
+  );
+};

@@ -20,7 +20,7 @@ const Features = () => {
 		
         <div className="col col-lg-4">
           <div className="feature_content">
-            <h2 className="item_title">Bespaar met een abonnement of strippenkaart</h2>
+            <h2 className="item_title">Bespaar met een strippenkaart</h2>
             <ul className="icon_list unorder_list_block">
               <li>
                 <i className="fas fa-check-circle"></i>
@@ -40,8 +40,7 @@ const Features = () => {
               </li>
             </ul>
 			<div className="cta-container">
-            <Link className="btn btn_primary" href="page-service-details"> <i className="fas fa-paw"></i>Bekijk abonnement</Link>
-            <Link className="btn border_primary" href="page-service-details"> <i className="fas fa-paw"></i>Bekijk strippenkaart</Link>
+            <Link className="btn btn_primary" href="/strippenkaart"> <i className="fas fa-paw"></i>Bekijk strippenkaart</Link>
 			</div>
           </div>
         </div>

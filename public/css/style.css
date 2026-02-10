@@ -33,7 +33,6 @@
 * 2.16 - IconBox Style
 * 2.17 - Office Hour Style
 * 2.18 - Price Range Slide
-* 2.19 - Countdown Style
 
 # 3 - Template Components
 * 3.1 - Template Header
@@ -565,6 +564,11 @@ hr {
   font-family: "Nunito", sans-serif;
   border: 1px solid transparent;
 }
+.btn_small {
+  font-size: 16px;
+  padding: 16px 18px;
+}
+
 .btn:hover {
   color: #ffffff;
   -webkit-transform: translateY(-3px);
@@ -1821,59 +1825,7 @@ hr {
 
 /* 2.18 - Price Range Slide - End
 ================================================== */
-/* 2.19 - Countdown Style - Start
-================================================== */
-.countdown_timer {
-  margin: 0;
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-.countdown_timer .counter-column {
-  height: 67px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  line-height: 1;
-  min-width: 67px;
-  list-style: none;
-  padding: 5px 10px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  border-radius: 8px;
-  border: 1px solid #7c58d3;
-}
-.countdown_timer .counter-column:not(:last-child) {
-  margin: 0 8px 0 0;
-}
-.countdown_timer .count {
-  font-size: 24px;
-  font-weight: 800;
-  color: #7c58d3;
-  font-family: "Nunito", sans-serif;
-}
-.countdown_timer span {
-  color: #a7a7a7;
-  font-size: 14px;
-  font-weight: 700;
-}
 
-/* 2.19 - Countdown Style - End
-================================================== */
 /* Template Header - Start
 ================================================== */
 .header_section {
@@ -3375,9 +3327,7 @@ hr {
   color: #675d6b;
   margin-bottom: 24px;
 }
-.sales_product_item .countdown_timer > li {
-  margin: 0 10px 0 0;
-}
+
 .sales_product_item:hover .item_image img {
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
@@ -5074,20 +5024,7 @@ blockquote cite {
     font-size: 15px;
     margin-bottom: 14px;
   }
-  .countdown_timer strong {
-    font-size: 18px;
-  }
-  .countdown_timer span {
-    font-size: 12px;
-  }
-  .sales_product_item .countdown_timer > li {
-    margin: 0 5px 0 0;
-  }
-  .countdown_timer > li {
-    padding: 3px;
-    height: 54px;
-    min-width: 54px;
-  }
+
   .page_title {
     font-size: 60px;
     line-height: 66px;
@@ -5249,16 +5186,7 @@ blockquote cite {
   .testimonial_carousel .slick-list {
     padding: 0 60px !important;
   }
-  .countdown_timer strong {
-    font-size: 16px;
-  }
-  .countdown_timer > li {
-    height: 46px;
-    min-width: 46px;
-  }
-  .sales_product_item .countdown_timer > li {
-    margin: 0 2px 2px 0;
-  }
+
   .sales_product_item .item_content {
     padding: 10px 20px;
   }

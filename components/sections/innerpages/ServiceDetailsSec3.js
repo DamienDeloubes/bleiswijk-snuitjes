@@ -9,7 +9,7 @@ const ServiceDetailsSec3 = () => {
           <div className="col col-lg-5">
             <div className="section_title">
               <h2 className="title_text">Flexibel geregeld, met zekerheid</h2>
-              <p>Regelmatige wandelingen? Met een abonnement of strippenkaart ben je verzekerd van vaste momenten en een voordeliger tarief per keer.</p>
+              <p>Regelmatige wandelingen? Met een strippenkaart ben je verzekerd van vaste momenten en een voordeliger tarief per keer.</p>
             </div>
 
             <ul className="icon_list unorder_list_block mb-0">
@@ -32,8 +32,7 @@ const ServiceDetailsSec3 = () => {
             </ul>
 
 			<div className="mt-5 cta-container">
-				<Link href="/abonnement" className="btn btn_primary">Bekijk abonnement</Link>
-				<Link href="/strippenkaart" className="btn border_primary">Bekijk strippenkaart</Link>
+				<Link href="/strippenkaart" className="btn btn_primary">Bekijk strippenkaart</Link>
 			</div>
           </div>
 

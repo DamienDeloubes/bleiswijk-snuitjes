@@ -4,8 +4,6 @@ import ServiceDetailsSec1 from "@/components/sections/innerpages/ServiceDetailsS
 import ServiceDetailsSec2 from "@/components/sections/innerpages/ServiceDetailsSec2"
 import ServiceDetailsSec3 from "@/components/sections/innerpages/ServiceDetailsSec3"
 import ServiceDetailsSec4 from "@/components/sections/innerpages/ServiceDetailsSec4"
-import ServiceDetailsSec5 from "@/components/sections/innerpages/ServiceDetailsSec5"
-import ServiceDetailsSec6 from "@/components/sections/innerpages/ServiceDetailsSec6"
 
 export default function PageServiceDetails() {
   return (
@@ -21,8 +19,6 @@ export default function PageServiceDetails() {
     <ServiceDetailsSec2 />
     <ServiceDetailsSec3 />
     <ServiceDetailsSec4 />
-    {/* <ServiceDetailsSec5 /> */}
-    {/* <ServiceDetailsSec6 /> */}
     
     </Layout>
     </>

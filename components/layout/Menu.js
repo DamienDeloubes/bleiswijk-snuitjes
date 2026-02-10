@@ -12,9 +12,6 @@ export default function Menu() {
 			<Link href="/diensten">Diensten & Prijzen</Link>
 		</li>
 		<li>
-			<Link href="/abonnement">Abonnement</Link>
-		</li>
-		<li>
 			<Link href="/strippenkaart">Strippenkaart</Link>
 		</li>
 		<li>

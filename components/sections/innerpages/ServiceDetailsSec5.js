@@ -3,68 +3,45 @@ import Link from "next/link";
 const ServiceDetailsSec5 = () => {
   return (
   <>
-    <section className="getservice_section section_space_lg pb-0">
+    <section className="about_section section_space_lg decoration_wrap">
       <div className="container">
         <div className="row align-items-center justify-content-lg-between">
-          <div className="col col-lg-5 d-none d-lg-block">
-            <div className="getservice_image">
-              <img src="/images/about/about_img_10.png" alt="Pet Care Service"/>
+          <div className="col col-lg-5">
+            <div className="section_title">
+              <h2 className="title_text">Waarom een strippenkaart?</h2>
+              <p>Voor wanneer je vaak gebruik wilt maken van mijn diensten ben je voordeliger uit met een strippenkaart.</p>
             </div>
+
+            <ul className="icon_list unorder_list_block mb-0">
+              <li>
+                <i className="fas fa-check-circle"></i>
+                <span>Goedkoper dan losse diensten</span>
+              </li>
+              <li>
+                <i className="fas fa-check-circle"></i>
+                <span>Perfect voor vaste klanten</span>
+              </li>
+              <li>
+                <i className="fas fa-check-circle"></i>
+                <span>Geen maandelijkse verplichting</span>
+              </li>
+            </ul>
           </div>
+
           <div className="col col-lg-6">
-            <div className="getservice_form">
-              <div className="section_title mb-4">
-                <h2 className="title_text">Get a Service </h2>
-                <p className="mb-0">Massa enim nec dui nunc mattis enim ut tellus. Auctor augue mauris augue neque gravida in fermentum</p>
-              </div>
-              <form action="#">
-                <div className="row">
-                  <div className="col col-md-6">
-                    <div className="form_item mb-0">
-                      <label htmlFor="input_name" className="input_title">Name<sup>*</sup></label>
-                      <input id="input_name" type="text" name="name" placeholder="Type your Name"/>
-                    </div>
-                  </div>
-                  <div className="col col-md-6">
-                    <div className="form_item mb-0">
-                      <label htmlFor="input_email" className="input_title">Email<sup>*</sup></label>
-                      <input id="input_email" type="email" name="email" placeholder="Type your Email"/>
-                    </div>
-                  </div>
-                  <div className="col col-md-6">
-                    <div className="select_option mb-0">
-                      <label htmlFor="select_service" className="input_title">Select Service</label>
-                      <select id="select_service">
-                        <option data-display="Select Service">Nothing</option>
-                        <option value="1">Some option</option>
-                        <option value="2">Another option</option>
-                        <option value="3" disabled>A disabled option</option>
-                        <option value="4">Potato</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div className="col col-md-6">
-                    <div className="form_item mb-0">
-                      <label htmlFor="input_time" className="input_title">Select Time</label>
-                      <input id="input_time" type="time" name="time"/>
-                    </div>
-                  </div>
-                  <div className="col">
-                    <div className="form_item">
-                      <label htmlFor="input_textarea" className="input_title">Your Message</label>
-                      <textarea id="input_textarea" name="message" placeholder="Type your message"></textarea>
-                    </div>
-                    <button type="submit" className="btn btn_primary">
-                      <i className="fas fa-paw"></i>
-                      Get Services
-                    </button>
-                  </div>
-                </div>
-              </form>
+            <div className="about_image_1">
+              <div className="image_1 p-0"><img src="/images/about/anouk-die-past-op-oppashond.jpg" alt="Pet Doctor"/></div>
+              <div className="image_2"><img src="/images/about/oppashond-die-netjes-luistert-naar-zit-commando.jpg" alt="Cat Image"/></div>
+              <div className="image_3"><img src="/images/about/oppashond-finley-die-lacht.jpg" alt="Dog Image"/></div>
+              <div className="shape_img_1"><img src="/images/shape/shape_circle_1.svg" alt="Yellow Circle"/></div>
+              <div className="shape_img_2"><img src="/images/shape/shape_circle_3.svg" alt="Yellow Circle"/></div>
             </div>
           </div>
+
         </div>
       </div>
+
+      <div className="decoration_item shape_dot_1"><img src="/images/shape/shape_dot_group_1.svg" alt="Colorful Dots"/></div>
     </section>
   </>
   );

@@ -83,20 +83,6 @@
   // Pricing Tab - End
   // --------------------------------------------------
 
-  // multy count down - start
-  // --------------------------------------------------
-  $('.countdown_timer').each(function(){
-    $('[data-countdown]').each(function() {
-      var $this = $(this), finalDate = $(this).data('countdown');
-      $this.countdown(finalDate, function(event) {
-        var $this = $(this).html(event.strftime(''
-          + '<li class="days_count"><strong>%D</strong><span>Days</span></li>'
-          + '<li class="hours_count"><strong>%H</strong><span>Hours</span></li>'
-          + '<li class="minutes_count"><strong>%M</strong><span>Mins</span></li>'
-          + '<li class="seconds_count"><strong>%S</strong><span>Secs</span></li>'));
-      });
-    });
-  });
   // multy count down - end
   // --------------------------------------------------
 

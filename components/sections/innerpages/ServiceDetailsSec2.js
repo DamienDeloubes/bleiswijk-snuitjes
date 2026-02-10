@@ -13,7 +13,7 @@ const ServiceDetailsSec2 = () => {
                Diensten & tarieven
               </h2>
               <p className="mb-0">
-                Kies voor losse momenten, een strippenkaart of een abonnement. Zo is er altijd een optie die past bij jouw planning en jouw hond.
+                Kies voor losse momenten of een strippenkaart. Zo is er altijd een optie die past bij jouw planning en jouw hond.
               </p>
             </div>
           </div>

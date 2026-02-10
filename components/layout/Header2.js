@@ -23,32 +23,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
             <div className="mobile-nav-toggler" onClick={handleMobileMenu}><span className="icon fas fa-bars"></span></div>
             <ul className="header_btns_group unorder_list_right">
               <li className="dropdown me-0 d-none d-sm-block">
-                <button className="cart_btn" type="button"><i className="fas fa-shopping-cart"></i> <small className="cart_counter">2</small> <span>item</span></button>
-                <div className="cart_dropdown dropdown-menu">
-                  <ul className="cart_items_list unorder_list_block">
-                    <li>
-                      <Link className="item_image" href="shop-details">
-                      <img src="/images/cart/cart_img_1.jpg" alt="Pet Care Service"/></Link>
-                      <div className="item_content">
-                        <h3 className="item_title"><Link href="shop-details">Flying Fish Cat Scratching</Link></h3>
-                        <span className="item_price">1 × $12.35</span>
-                      </div>
-                      <button className="remove_btn" type="button"><i className="fal fa-times"></i></button>
-                    </li>
-                    <li>
-                      <Link className="item_image" href="shop-details"><img src="/images/cart/cart_img_2.jpg" alt="Pet Care Service"/></Link>
-                      <div className="item_content">
-                        <h3 className="item_title"><Link href="shop-details">Pet Bed</Link></h3>
-                        <span className="item_price">1 × $58.16</span>
-                      </div>
-                      <button className="remove_btn" type="button"><i className="fal fa-times"></i></button>
-                    </li>
-                  </ul>
-                  <hr/>
-                  <div className="total_price"><span>Total</span> <strong>$70.51</strong></div>
-                  <Link className="btn border_primary" href="page-cart">Update Cart</Link>
-                  <Link className="btn btn_primary" href="page-cart">Checkout</Link>
-                </div>
+                <Link href="/op-vakantie" className="btn btn_primary btn_small"><span>Op vakantie?</span></Link>
               </li>
             </ul>
           </div>
@@ -108,32 +83,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
             <div className="mobile-nav-toggler" onClick={handleMobileMenu}><span className="icon fas fa-bars" /></div>
             <ul className="header_btns_group unorder_list_right">
               <li className="dropdown me-0 d-none d-sm-block">
-                <button className="cart_btn" type="button"><i className="fas fa-shopping-cart"></i> <small className="cart_counter">2</small> <span>item</span></button>
-                <div className="cart_dropdown dropdown-menu">
-                  <ul className="cart_items_list unorder_list_block">
-                    <li>
-                      <Link className="item_image" href="shop-details">
-                      <img src="/images/cart/cart_img_1.jpg" alt="Pet Care Service"/></Link>
-                      <div className="item_content">
-                        <h3 className="item_title"><Link href="shop-details">Flying Fish Cat Scratching</Link></h3>
-                        <span className="item_price">1 × $12.35</span>
-                      </div>
-                      <button className="remove_btn" type="button"><i className="fal fa-times"></i></button>
-                    </li>
-                    <li>
-                      <Link className="item_image" href="shop-details"><img src="/images/cart/cart_img_2.jpg" alt="Pet Care Service"/></Link>
-                      <div className="item_content">
-                        <h3 className="item_title"><Link href="shop-details">Pet Bed</Link></h3>
-                        <span className="item_price">1 × $58.16</span>
-                      </div>
-                      <button className="remove_btn" type="button"><i className="fal fa-times"></i></button>
-                    </li>
-                  </ul>
-                  <hr/>
-                  <div className="total_price"><span>Total</span> <strong>$70.51</strong></div>
-                  <Link className="btn border_primary" href="page-cart">Update Cart</Link>
-                  <Link className="btn btn_primary" href="page-cart">Checkout</Link>
-                </div>
+                <Link href="/op-vakantie" className="btn btn_primary btn_small"><span>Op vakantie?</span></Link>
               </li>
             </ul>
           </div>
