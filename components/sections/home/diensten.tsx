@@ -34,9 +34,9 @@ export const Diensten = () => {
                   jouw hond, zonder groepsuitjes, met volledige aandacht.
                 </p>
                 <div className="item_price">
-                  <span>Vanaf €15 / hour</span>
+                  <span>Vanaf €12,50</span>
                 </div>
-                <Link className="btn_unfill" href="page-service-details">
+                <Link className="btn_unfill" href="/diensten">
                   <span>Bekijk prijzen</span>
                   <i className="far fa-long-arrow-right"></i>
                 </Link>
@@ -60,49 +60,16 @@ export const Diensten = () => {
                       alt="Pet Hotel"
                     />
                   </div>
-                  <h3 className="item_title mb-0">Oppassen</h3>
+                  <h3 className="item_title mb-0">Oppassen & logeren</h3>
                 </div>
                 <p>
                   Persoonlijke opvang in huiselijke sfeer, waar jouw hond alle
                   rust en aandacht krijgt zolang jij weg bent.
                 </p>
                 <div className="item_price">
-                  <span>Vanaf €15 / night</span>
+                  <span>Vanaf €25,00</span>
                 </div>
-                <Link className="btn_unfill" href="page-service-details">
-                  <span>Bekijk prijzen</span>
-                  <i className="far fa-long-arrow-right"></i>
-                </Link>
-                <div className="decoration_image">
-                  <img src="/images/shape/shape_paws.svg" alt="Pet Paws" />
-                </div>
-              </div>
-            </div>
-
-            <div className="col col-lg-4 col-sm-6">
-              <div
-                className="service_item"
-                style={{
-                  backgroundImage: "url(images/shape/shape_path_1.svg)",
-                }}
-              >
-                <div className="title_wrap">
-                  <div className="item_icon">
-                    <img
-                      src="/images/icon/icon_pet_health.svg"
-                      alt="Pet Health & Wellness"
-                    />
-                  </div>
-                  <h3 className="item_title mb-0">Thuisbezoek</h3>
-                </div>
-                <p>
-                  Een bezoek bij jou thuis voor voeding, aandacht, medicatie of
-                  een korte ronde, ideaal voor puppy's en oudere honden.
-                </p>
-                <div className="item_price">
-                  <span>Vanaf €39/ visit</span>
-                </div>
-                <Link className="btn_unfill" href="page-service-details">
+                <Link className="btn_unfill" href="/diensten">
                   <span>Bekijk prijzen</span>
                   <i className="far fa-long-arrow-right"></i>
                 </Link>

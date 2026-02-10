@@ -34,7 +34,7 @@ export const PrijzenLijst = () => {
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="service_time">Dagopvang</div>
                     <div className="item_price">
-                      <span>€25.00</span>
+                      <span>€25,00</span>
                     </div>
                   </div>
                   <h3 className="item_title mb-0">
@@ -54,7 +54,7 @@ export const PrijzenLijst = () => {
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="service_time">Logeren</div>
                     <div className="item_price">
-                      <span>€27.00</span>
+                      <span>€27,00</span>
                     </div>
                   </div>
                   <h3 className="item_title mb-0">
@@ -80,7 +80,7 @@ export const PrijzenLijst = () => {
                       <i className="fas fa-clock"></i>Uitlaten {"(30 minuten)"}
                     </div>
                     <div className="item_price">
-                      <span>€12.50</span>
+                      <span>€12,50</span>
                     </div>
                   </div>
                   <h3 className="item_title mb-0">
@@ -103,7 +103,7 @@ export const PrijzenLijst = () => {
                       <i className="fas fa-clock"></i>Uitlaten {"(60 minuten)"}
                     </div>
                     <div className="item_price">
-                      <span>€17.50</span>
+                      <span>€17,50</span>
                     </div>
                   </div>
                   <h3 className="item_title mb-0">
