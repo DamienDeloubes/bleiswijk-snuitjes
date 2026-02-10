@@ -44,7 +44,7 @@ export const VakantiePrijzen = () => {
                     <h3 className="item_title mb-0">
                       Voor een korte break met complete zorg.
                       <br />
-                      {"(10 dagen + 10 nachten opvang)"}
+                      {"(2 dagen + 2 nachten opvang)"}
                     </h3>
                   </div>
                 </div>
