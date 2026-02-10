@@ -1,19 +1,18 @@
 "use client";
-import { useEffect, useState } from "react";
-import WhatsAppWidget from "../elements/WhatsAppWidget";
-import Footer1 from "./Footer1";
-import Header1 from "./Header1";
-import Header2 from "./Header2";
-import Header3 from "./Header3";
-import PageHead from "./PageHead";
 
-export default function Layout({
-  headerStyle,
-  children,
-}: {
+import { useEffect, useState, FC } from "react";
+import { WhatsAppWidget } from "../shared/whatsapp-widget";
+import { Footer } from "./footer";
+import { Header1 } from "./header-1";
+import { Header2 } from "./header-2";
+import { PageHead } from "./page-head";
+
+type LayoutProps = {
   headerStyle?: number;
   children: React.ReactNode;
-}) {
+};
+
+export const Layout: FC<LayoutProps> = ({ headerStyle, children }) => {
   const [scroll, setScroll] = useState(0);
   // Moblile Menu
   const [isMobileMenu, setMobileMenu] = useState(false);
@@ -66,21 +65,12 @@ export default function Layout({
             handleSearch={handleSearch}
           />
         ) : null}
-        {headerStyle == 3 ? (
-          <Header3
-            scroll={scroll}
-            isMobileMenu={isMobileMenu}
-            handleMobileMenu={handleMobileMenu}
-            isSearch={isSearch}
-            handleSearch={handleSearch}
-          />
-        ) : null}
 
         <main className="main">{children}</main>
 
-        <Footer1 />
+        <Footer />
       </div>
       <WhatsAppWidget />
     </>
   );
-}
+};

@@ -272,13 +272,6 @@
 		align-items: stretch;
 	}
 
-	.vanilla-calendar-content {
-		overflow-x: scroll;
-		&::-webkit-scrollbar {
-			width: 0px;
-		}
-	}
-
 	.breadcrumb_section .breadcrumb_img.dog_image {
 		max-width: 410px;
 	}

@@ -188,59 +188,6 @@
 }
 // Twitter Feed - End
 
-// Calender - Start
-.vanilla-calendar {
-	padding: 0;
-	width: auto;
-	border-radius: 0;
-	max-width: 370px;
-}
-.vanilla-calendar-header {
-	margin-bottom: 10px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid $color_border;
-}
-.vanilla-calendar-arrow {
-	right: 0;
-}
-.vanilla-calendar-arrow_prev {
-	left: 0;
-}
-.vanilla-calendar-header__content button {
-	padding: 0 2px;
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 19px;
-	color: $color_dark;
-	text-transform: uppercase;
-	font-family: $font_heading;
-}
-.vanilla-calendar-week__day {
-	font-size: 14px;
-	font-weight: 700;
-	line-height: 17px;
-	color: $color_body;
-	font-family: $font_heading;
-}
-.vanilla-calendar-week {
-	margin-bottom: 5px;
-}
-.vanilla-calendar-day__btn {
-	font-size: 14px;
-	line-height: 26px;
-	border-radius: 4px;
-	color: $color_body;
-}
-.vanilla-calendar-day__btn:hover,
-.vanilla-calendar-day__btn_today {
-	color: #ffffff;
-	background-color: $color_primary;
-}
-.vanilla-calendar-day__btn_weekend,
-.vanilla-calendar-day__btn_holiday {
-	color: $color_danger;
-}
-// Calender - End
 
 /* 3.4 - Sidebar Section - End
 ================================================== */

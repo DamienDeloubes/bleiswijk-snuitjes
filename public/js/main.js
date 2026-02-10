@@ -11,14 +11,6 @@
 (function($) {
   "use strict";
 
-  // Vanilla Calendar - Start
-  // --------------------------------------------------
-  document.addEventListener('DOMContentLoaded', () => {
-    const calendar = new VanillaCalendar('.vanilla-calendar');
-    calendar.init();
-  });
-  // Vanilla Calendar - End
-  // --------------------------------------------------
 
   // Back To Top - Start
   // --------------------------------------------------

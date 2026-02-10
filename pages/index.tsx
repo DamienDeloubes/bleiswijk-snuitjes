@@ -1,21 +1,21 @@
-import Layout from "@/components/layout/Layout";
-import Banner from "@/components/sections/home/Banner";
-import Service from "@/components/sections/home/Service";
-import Faq from "@/components/sections/home/Faq";
-import Gallery from "@/components/sections/home/Gallery";
-import Testimonial from "@/components/sections/home/Testimonial";
-import Features from "@/components/sections/home/Features";
-import Contact from "@/components/sections/home/Contact";
+import { Layout } from "@/components/layout/layout";
+import { Hero } from "@/components/sections/home/hero";
+import { Diensten } from "@/components/sections/home/diensten";
+import { WieZitErAchter } from "@/components/sections/home/wie-zit-erachter";
+import { Gallerij } from "@/components/sections/home/gallerij";
+import { Getuigenissen } from "@/components/sections/home/getuigenissen";
+import { Strippenkaart } from "@/components/sections/home/strippenkaart";
+import { Contact } from "@/components/sections/home/contact";
 
-export default function Home() {
+export default function Page() {
   return (
     <Layout headerStyle={1}>
-      <Banner />
-      <Faq />
-      <Service />
-      <Features />
-      <Gallery />
-      <Testimonial />
+      <Hero />
+      <WieZitErAchter />
+      <Diensten />
+      <Strippenkaart />
+      <Gallerij />
+      <Getuigenissen />
       <Contact />
     </Layout>
   );

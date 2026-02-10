@@ -1,0 +1,27 @@
+import { FC } from "react";
+
+type PageTitleProps = {
+  pageName: string;
+  pageText: string;
+  floatImage: string;
+  customClass: string;
+};
+
+export const PageTitle: FC<PageTitleProps> = ({
+  pageName,
+  pageText,
+  floatImage,
+  customClass,
+}) => {
+  return (
+    <section className="page-title">
+      <div className="container">
+        <div className="title-wrapper">
+          <h1 className="title">{pageName}</h1>
+          <p className="text">{pageText}</p>
+        </div>
+      </div>
+      <img className={customClass} src={floatImage} alt="" />
+    </section>
+  );
+};
