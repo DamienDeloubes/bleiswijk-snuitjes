@@ -7,7 +7,7 @@ import { VakantiePrijzen } from "@/components/sections/op-vakantie/vakantie-prij
 export default function Page() {
   return (
     <>
-      <Layout headerStyle={3} footerStyle={1}>
+      <Layout headerStyle={3}>
         <PageTitle
           customClass="service-style"
           pageName="Op vakantie?"

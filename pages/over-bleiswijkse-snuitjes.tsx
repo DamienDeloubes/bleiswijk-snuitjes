@@ -7,7 +7,7 @@ import Faq from "@/components/sections/home/Faq";
 export default function PageAbout() {
   return (
     <>
-      <Layout headerStyle={3} footerStyle={1}>
+      <Layout headerStyle={3}>
         <section className="page-title">
           <div className="container">
             <div className="title-wrapper">
