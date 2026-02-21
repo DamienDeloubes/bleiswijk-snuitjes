@@ -8,7 +8,7 @@ const swiperOptions = {
   freeMode: true,
   centeredSlides: true,
   autoplay: {
-    delay: 2500,
+    delay: 3500,
     disableOnInteraction: false,
   },
   navigation: true,
@@ -16,19 +16,35 @@ const swiperOptions = {
   breakpoints: {
     320: {
       slidesPerView: 1,
+      autoplay: {
+        delay: 10_000,
+        disableOnInteraction: false,
+      },
       // spaceBetween: 30,
     },
     767: {
       slidesPerView: 1,
+      autoplay: {
+        delay: 10_000,
+        disableOnInteraction: false,
+      },
       // spaceBetween: 30,
     },
     991: {
       slidesPerView: 2,
+      autoplay: {
+        delay: 10_000,
+        disableOnInteraction: false,
+      },
       // spaceBetween: 30,
     },
     1199: {
       slidesPerView: 2,
       freeMode: true,
+      autoplay: {
+        delay: 10_000,
+        disableOnInteraction: false,
+      },
       centeredSlides: false,
       spaceBetween: 10,
     },
