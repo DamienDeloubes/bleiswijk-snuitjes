@@ -3,7 +3,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
-  slidesPerView: 4,
+  slidesPerView: 3,
   spaceBetween: 0,
   freeMode: true,
   centeredSlides: true,
@@ -37,11 +37,12 @@ const swiperOptions = {
       spaceBetween: 0,
     },
     1500: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 0,
     },
   },
 };
+
 export const Getuigenissen = () => {
   return (
     <section className="testimonial_section section_space_lg bg_gray">
@@ -61,13 +62,13 @@ export const Getuigenissen = () => {
               <div className="testimonial_admin">
                 <div className="admin_thumbnail">
                   <img
-                    src="/images/meta/thumbnail_img_3.png"
+                    src="/images/oppashonden/baasje-lie-en-renee.jpg"
                     alt="Pet Thumbnail Image"
                   />
                 </div>
                 <div className="admin_info">
-                  <h4 className="admin_name">Marieke</h4>
-                  <span className="admin_designation">baasje van Bo</span>
+                  <h4 className="admin_name">Lie en René</h4>
+                  <span className="admin_designation">Baasjes van Mees</span>
                 </div>
               </div>
               <ul className="rating_star">
@@ -88,8 +89,9 @@ export const Getuigenissen = () => {
                 </li>
               </ul>
               <p className="mb-0">
-                Onze hond is veel rustiger sinds de wandelingen met Anouk. Fijn
-                dat het altijd één-op-één is en dat we foto’s krijgen.
+                Anouk biedt een fijn oppashuis voor ons hondje. Anouk is rustig
+                wat ons hondje van inmiddels 11 jaar oud waardeert! En haar huis
+                een heerlijke plek midden in het dorp.
               </p>
               <span className="quote_icon">
                 <i className="fas fa-quote-right"></i>
@@ -102,13 +104,13 @@ export const Getuigenissen = () => {
               <div className="testimonial_admin">
                 <div className="admin_thumbnail">
                   <img
-                    src="/images/meta/thumbnail_img_3.png"
+                    src="/images/oppashonden/baasje-chanel.jpg"
                     alt="Pet Thumbnail Image"
                   />
                 </div>
                 <div className="admin_info">
-                  <h4 className="admin_name">Tom</h4>
-                  <span className="admin_designation">baasje van Luna</span>
+                  <h4 className="admin_name">Chanel</h4>
+                  <span className="admin_designation">Baasje van Lio</span>
                 </div>
               </div>
               <ul className="rating_star">
@@ -129,8 +131,11 @@ export const Getuigenissen = () => {
                 </li>
               </ul>
               <p className="mb-0">
-                Je merkt meteen dat Anouk echt oog heeft voor de hond. Onze
-                Labradoodle kijkt elke keer uit naar haar komst.
+                Lio is bij Anouk geweest en we zijn super tevreden! Ze hield ons
+                goed op de hoogte met foto’s en filmpjes, wat erg fijn was. Lio
+                kwam helemaal voldaan en blij weer thuis. Je merkt dat Anouk
+                veel liefde en aandacht heeft voor de honden. Zeker een
+                aanrader!
               </p>
               <span className="quote_icon">
                 <i className="fas fa-quote-right"></i>
@@ -143,13 +148,13 @@ export const Getuigenissen = () => {
               <div className="testimonial_admin">
                 <div className="admin_thumbnail">
                   <img
-                    src="/images/meta/thumbnail_img_3.png"
+                    src="/images/oppashonden/baasje-edith-en-luc.jpg"
                     alt="Pet Thumbnail Image"
                   />
                 </div>
                 <div className="admin_info">
-                  <h4 className="admin_name">Sophie</h4>
-                  <span className="admin_designation">baasje van Milo</span>
+                  <h4 className="admin_name">Edith & Luc</h4>
+                  <span className="admin_designation">Baasjes van Beppie</span>
                 </div>
               </div>
               <ul className="rating_star">
@@ -170,8 +175,15 @@ export const Getuigenissen = () => {
                 </li>
               </ul>
               <p className="mb-0">
-                Super prettig dat er vooraf een kennismaking was. Alles werd
-                doorgenomen en wij laten onze hond met een gerust hart achter.
+                Onze continentale bulldog Beppie heeft een heerlijke week gehad
+                bij Bleiswijkse Snuitjes. Wanneer Beppie wakker is kan ze erg
+                druk zijn. Anouk bezit de prachtige eigenschap om daar geen
+                problemen mee te hebben. Ze zijn heerlijk lang en vaak gaan
+                wandelen. Anouk zorgt voor een huiselijke sfeer tijdens het
+                logeren. Ik vind dat heel belangrijk. Het is overduidelijk dat
+                Beppie gek is op Anouk. Als ze elkaar weer zien is Beppie altijd
+                over de top blij om haar te zien. Dat zegt voor mij dat Anouk
+                met haar Bleiswijkse Snuitjes een prachtig oppasadres is.
               </p>
               <span className="quote_icon">
                 <i className="fas fa-quote-right"></i>
@@ -184,13 +196,13 @@ export const Getuigenissen = () => {
               <div className="testimonial_admin">
                 <div className="admin_thumbnail">
                   <img
-                    src="/images/meta/thumbnail_img_3.png"
+                    src="/images/oppashonden/baasje-monique-en-luc.jpg"
                     alt="Pet Thumbnail Image"
                   />
                 </div>
                 <div className="admin_info">
-                  <h4 className="admin_name">Kevin</h4>
-                  <span className="admin_designation">baasje van Charlie</span>
+                  <h4 className="admin_name">Monique & Luc</h4>
+                  <span className="admin_designation">Baasjes van Louitje</span>
                 </div>
               </div>
               <ul className="rating_star">
@@ -211,8 +223,10 @@ export const Getuigenissen = () => {
                 </li>
               </ul>
               <p className="mb-0">
-                Onze pup krijgt precies de aandacht die hij nodig heeft. De
-                thuisbezoeken zijn echt ideaal tijdens onze werkdagen.
+                Wat een fijn adres voor mijn hond! Vooral de huiselijke omgeving
+                was voor ons doorslaggevend. Het is een rustgevend gevoel om je
+                hond met een gerust hart achter te kunnen laten. En als kers op
+                de taart tussendoor een update met vaak een foto!
               </p>
               <span className="quote_icon">
                 <i className="fas fa-quote-right"></i>
@@ -225,13 +239,13 @@ export const Getuigenissen = () => {
               <div className="testimonial_admin">
                 <div className="admin_thumbnail">
                   <img
-                    src="/images/meta/thumbnail_img_3.png"
+                    src="/images/oppashonden/baasje-layla.jpg"
                     alt="Pet Thumbnail Image"
                   />
                 </div>
                 <div className="admin_info">
-                  <h4 className="admin_name">Linda</h4>
-                  <span className="admin_designation">baasje van Nala</span>
+                  <h4 className="admin_name">Melanie & Shen</h4>
+                  <span className="admin_designation">Baasjes van Layla</span>
                 </div>
               </div>
               <ul className="rating_star">
@@ -252,8 +266,9 @@ export const Getuigenissen = () => {
                 </li>
               </ul>
               <p className="mb-0">
-                Geen groepswandelingen was voor ons doorslaggevend. Onze hond is
-                gevoelig en bloeit helemaal op bij Bleiswijkse Snuitjes.
+                Anouk is lief, denkt altijd graag mee over mogelijkheden en
+                stuurt veel foto's door de dag heen. Layla gaat er altijd met
+                veel plezier heen!
               </p>
               <span className="quote_icon">
                 <i className="fas fa-quote-right"></i>
@@ -266,13 +281,15 @@ export const Getuigenissen = () => {
               <div className="testimonial_admin">
                 <div className="admin_thumbnail">
                   <img
-                    src="/images/meta/thumbnail_img_3.png"
+                    src="/images/oppashonden/baasje-tyra-joey.jpg"
                     alt="Pet Thumbnail Image"
                   />
                 </div>
                 <div className="admin_info">
-                  <h4 className="admin_name">Peter</h4>
-                  <span className="admin_designation">baasje van Max</span>
+                  <h4 className="admin_name">Tyra & Joey</h4>
+                  <span className="admin_designation">
+                    Baasjes van Toki & Lilu
+                  </span>
                 </div>
               </div>
               <ul className="rating_star">
@@ -293,8 +310,15 @@ export const Getuigenissen = () => {
                 </li>
               </ul>
               <p className="mb-0">
-                Betrouwbaar, lief en professioneel. We hebben eindelijk een
-                vaste oppas gevonden waar we ons goed bij voelen.
+                Wij laten onze lieve Frenchies Toki en Lilu met een gerust hart
+                achter bij Anouk van Bleiswijkse Snuitjes. Ze zorgt altijd
+                liefdevol en zorgvuldig voor ze als wij op vakantie zijn. We
+                krijgen dagelijks duidelijke updates, fijne foto’s en het
+                contact is heel prettig. Ook de uitlaatservice is betrouwbaar.
+                Maar wat voor ons het allerbelangrijkste is, Anouk heeft
+                oprechte liefde en aandacht voor onze Franse bullies! Zoek je
+                een uitlaatservice, dagopvang of een logeerplek voor je honden,
+                dan zit je bij Bleiswijkse Snuitjes helemaal goed! Tyra en Joey
               </p>
               <span className="quote_icon">
                 <i className="fas fa-quote-right"></i>
