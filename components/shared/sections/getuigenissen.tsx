@@ -218,7 +218,9 @@ export const Getuigenissen = () => {
                 </div>
                 <div className="admin_info">
                   <h4 className="admin_name">Monique & Luc</h4>
-                  <span className="admin_designation">Baasjes van Louitje</span>
+                  <span className="admin_designation">
+                    Baasjes van Lowietje
+                  </span>
                 </div>
               </div>
               <ul className="rating_star">
